@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* home page style */
+
+.banner-title {
+  font-family: Unbounded;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 78px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.shadow-class {
+  box-shadow: 0 0 7px 1px #23564a;
+}
+
+/* sustainable page website */
+.slick-dots li button:before {
+  color: #a1a1aa; /* Tailwind Gray-400 */
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f0af4a; /* Tailwind Indigo-500 */
+}
+
+/* navbar styles starting */
+.nav-menue-active {
+  @apply hover:text-primaryTheme  uppercase hover:border-t-[5px]  border-t-[3px]  border-primaryTheme text-primaryTheme  pt-6 font-bold;
+}
+.nav-menue {
+  @apply hover:text-primaryTheme uppercase  hover:border-primaryTheme pt-6 hover:border-t-[5px];
+}
+
+.mob-nav-menue {
+  @apply text-start p-5 border-t-[#F2F2F2]  border-t-[3px]    block;
+}
+
+.mob-nav-menue-active {
+  @apply text-start p-5    border-t-[3px]  border-t-primaryTheme text-primaryTheme block;
+}
+
+/* navbar style ending */
+
+/* home page style starting */
+
+.h-banner-prev {
+  @apply absolute top-[85%] md:top-[88%] lg:top-[90%] left-[40%] md:left-[45%] lg:left-[48%] transform -translate-x-[50%] z-10 bg-primaryTheme text-white p-2 md:p-3 lg:p-4 hover:bg-black shadow-lg focus:outline-none;
+}
+
+.h-banner-next {
+  @apply absolute top-[85%] md:top-[88%] lg:top-[90%] left-[60%] md:left-[55%] lg:left-[52%] transform -translate-x-[50%] z-10 bg-primaryTheme text-white p-2 md:p-3 lg:p-4 hover:bg-black shadow-lg focus:outline-none;
+}
+
+.apics-primary-button {
+  @apply btn bg-secondTheme leading-[37px] my-10 text-2xl rounded-none hover:bg-primaryTheme h-[70px] text-white flex justify-center items-center    px-8;
+}
+
+/* home section 2 style starting */
+
+/* Section Styling */
+.home-2-section {
+  @apply bg-white py-12;
+}
+
+/* Container */
+.home-2-container {
+  @apply mx-auto px-4;
+}
+
+/* Cards Wrapper */
+.home-2-cards-wrapper {
+  @apply flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8;
+}
+
+/* Card Styling with Nested Elements */
+.home-2-card {
+  @apply bg-primaryTheme text-center px-5 pt-5 pb-10 lg:space-y-12 w-72;
+
+  h3 {
+    @apply lg:text-[100px] text-[40px] leading-[80px] font-ubuntu text-white mb-4;
+  }
+
+  p {
+    @apply text-white text-[30px] lg:text-[39px] leading-[47px] mb-6;
+  }
+
+  button {
+    @apply bg-white text-black py-2 px-6  text-xl  shadow hover:bg-black hover:text-white;
+  }
+}
+
+/* home section 2 style ending */
+
+/* home section 3 style starting */
+.home-3-container {
+  @apply bg-white py-12 max-w-7xl mx-auto font-ubuntu;
+}
+
+.home-3-cards {
+  @apply max-w-7xl mx-auto px-6;
+}
+.home-3-title {
+  @apply text-[50px] py-12;
+}
+.home-3-card {
+  @apply bg-white p-6 flex border-b-2;
+}
+
+.home-3-card .icon {
+  @apply mb-4 w-72 overflow-hidden;
+}
+
+.home-3-card .icon img {
+  @apply pe-5 w-full;
+}
+
+.home-3-card h3 {
+  @apply text-lg  text-[#303334] font-[600] text-start  mb-4;
+}
+
+.home-3-card p {
+  @apply font-semibold text-[#767879] mb-2;
+}
+
+.home-3-card-content {
+  @apply flex flex-col justify-between;
+}
+.home-3-card ul {
+  @apply list-item text-[#767879];
+}
+
+.home-3-card ul li {
+  @apply font-[300] mb-2;
+}
+
+/* home section 3 style ending */
+
+/* home page style ending */

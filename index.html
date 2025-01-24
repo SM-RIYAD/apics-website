@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en " data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+  <title>apics</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</head>
+
+<body class="">
+  <!-- Header Section -->
+
+  <section class="bg-[#F2F2F2]  ">
+    <header class="max-w-[1200px] font-ubuntu  bg-[#F2F2F2] container mx-auto relative">
+      <div class="mx-auto flex flex-wrap  justify-between items-start">
+        <a href="index.html" target="_blank" class="flex pt-2" rel="noopener noreferrer">
+          <div class="lg:w-44">
+            <img src="/images/dd-colored.png" alt="Logo" class=" " />
+          </div>
+
+          <div class="lg:w-44 ps-3">
+            <img src="images/ascm-partner-mark_premier_training.jpg" class="" alt="" srcset="">
+          </div>
+
+        </a>
+
+
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex justify-between items-start  text-xl space-x-12 text-black">
+          <a href="index.html" class="nav-menue-active">Home</a>
+          <a href="about.html" class="nav-menue">
+            About
+          </a>
+          <a href="news.html" class="nav-menue">News</a>
+          <a href="contact.html" class="nav-menue">Gallery</a>
+          <a href="blog.html" class="nav-menue">Blog</a>
+
+
+          <a href="contact.html" class="nav-menue">Contacts</a>
+        </nav>
+
+        <div class="hidden lg:block w-[70px] border-b border-white mb-2 mx-3"></div>
+
+        <!-- Mobile Menu Button and Login for Tablet -->
+        <div class="flex items-center justify-center  w-full py-4 space-x-2 lg:hidden">
+          <!-- Login Button visible in the header for tablets -->
+
+          <!-- Toggle SVG always visible -->
+          <div class="bg-primaryTheme p-1 px-2">
+
+            <button class="text-white text-xl " onclick="toggleMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <!-- Mobile Navigation -->
+    <nav id="mobileMenu"
+      class="hidden font-ubuntu lg:hidden bg-white text-center text-black p-4 relative top-0 left-0 right-0">
+
+
+      <a href="index.html" class="mob-nav-menue-active">Home</a>
+
+      <a href="about.html" class="  mob-nav-menue">
+        About</a>
+      <a href="news.html" class="mob-nav-menue">News</a>
+      <a href="contact.html" class="mob-nav-menue">Gallery</a>
+      <a href="blog.html" class="mob-nav-menue">Blog</a>
+
+
+      <a href="contact.html" class="mob-nav-menue">Contacts</a>
+    </nav>
+
+  </section>
+
+
+
+
+  <!-- section  banner starting -->
+  <section class="overflow-hidden">
+    <div class="slider">
+      <!-- Slide 1 -->
+      <div class="lg:h-screen w-full">
+        <img src="images/slider-2.01-1920x1080-apics-hero-bh.png" alt="Banner Image" class="w-full h-full object-cover">
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="lg:h-screen w-full">
+        <img src="images/slider-4.01-1920x1080-apics-hero-bh.png" alt="Banner Image" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- section  banner  ending -->
+
+
+  <!-- section 2 starting -->
+  <div class="flex justify-center">
+    <button class="
+    
+    apics-primary-button">REQUEST INFORMATION</button>
+
+  </div>
+  <section class="home-2-section">
+    <div class="home-2-container">
+      <div class="home-2-cards-wrapper">
+        <!-- Card 1 -->
+        <div class="home-2-card">
+          <h3>CPIM</h3>
+          <p>Certified in Planning & Inventory Management</p>
+          <button>ENROLL</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="home-2-card">
+          <h3>CSCP</h3>
+          <p>Certified Supply Chain Professional</p>
+          <button>ENROLL</button>
+        </div>
+        <!-- Card 3 -->
+        <div class="home-2-card">
+          <h3>SCOR</h3>
+          <p>SCOR Digital Standard (SCOR DS)</p>
+          <button>ENROLL</button>
+        </div>
+        <!-- Card 4 -->
+        <div class="home-2-card">
+          <h3>CLTD</h3>
+          <p>Certified in Logistics Transportation Distribution</p>
+          <button>ENROLL</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <button class="apics-primary-button">Training schedule in Hong Kong and Singapore</button>
+
+    </div>
+  </section>
+
+  <!-- section 2 ending -->
+
+
+
+
+
+  <!-- section 3 starting -->
+
+  <section class="home-3-container">
+
+    <h2 class="home-3-title"> Success Stories</h2>
+
+    <div class="home-3-cards grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Card 1 -->
+      <div class="home-3-card">
+        <div class="icon">
+          <img src="images/custom_word_growth_400_clr_18056.png" alt="Success Icon">
+        </div>
+        <div class="home-3-card-content">
+          <h3>Expresspoint Adopts the SCOR Model for Strategic Supply Chain Progress</h3>
+          <div>
+            <p>RESULTS</p>
+            <ul>
+              <li>Enhanced understanding of the end-to-end supply chain and its segments</li>
+              <li>Implemented a formal sales and operations planning strategy</li>
+              <li>Integrated supply chain processes with the budget cycle and financial statements</li>
+              <li>Improved perfect line fulfillment</li>
+              <li>Created a more flexible and responsive supply chain</li>
+              <li>Refined metrics for greater visibility - Reduced cost to serve</li>
+            </ul>
+          </div>
+
+          <div class="button">
+            <button class="apics-primary-button">More</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 2 -->
+      <div class="home-3-card">
+        <div class="icon">
+          <img src="images/oil_barrel_button_400_clr_16650.png" alt="Oil Icon">
+        </div>
+        <div class="home-3-card-content">
+
+
+          <h3>GE Oil & Gas improves customer service and enhances operational efficiency</h3>
+
+          <div class="">
+
+            <p>RESULTS</p>
+            <ul>
+              <li>30+ percent increase in on-time delivery</li>
+              <li>30 percent reduction in slotting lead time</li>
+              <li>50 percent increase in capacity utilization</li>
+              <li>Say/do ratio greater than 95 percent</li>
+              <li>Highest inventory turns ever</li>
+              <li>150 employees engaged in APICS CPIM training</li>
+            </ul>
+
+          </div>
+
+          <div class="button">
+            <button class="apics-primary-button">More</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 3 -->
+      <div class="home-3-card">
+        <div class="icon">
+          <img src="images/pound_maker_machine_150_clr_12368.gif" class="w-full" alt="Spice Icon">
+        </div>
+        <div class="home-3-card-content">
+          <h3>Spice Maker Mccormick & Co. builds a world-class supply chain</h3>
+          <div>
+
+            <p>RESULTS</p>
+            <ul>
+              <li>Build a global supply chain organization and leadership team</li>
+              <li>Created a supply chain culture of continuous improvement - each initiative building off the best
+                practices already established and embedded</li>
+              <li>Supported achievement of business goals</li>
+            </ul>
+          </div>
+
+
+          <div class="button">
+            <button class="  apics-primary-button">More</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- 
+  section 3 ending -->
+
+
+
+
+
+
+
+
+  <!-- js for slick slider -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        fade: true,
+        prevArrow: `<button type="button" class="h-banner-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 lg:h-7 lg:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>`,
+        nextArrow: `<button type="button" class="h-banner-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 lg:h-7 lg:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>`,
+      });
+    });
+  </script>
+
+
+  </script>
+  <!-- js for nav -->
+  <script>
+    function toggleMenu() {
+      const mobileMenu = document.getElementById("mobileMenu");
+      mobileMenu.classList.toggle("hidden");
+    }
+  </script>
+  <!-- 
+    wow js animation js -->
+  <script>
+    new WOW({
+      boxClass: "wow", // Class to identify elements for animations
+      animateClass: "animate__animated", // Animation class from Animate.css
+      offset: 100, // Trigger point in px before element appears in viewport
+      mobile: true, // Enable animations on mobile devices
+      live: true, // Act on dynamically loaded content
+    }).init();
+  </script>
+</body>
+
+</html>
