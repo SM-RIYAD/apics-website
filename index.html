@@ -19,71 +19,55 @@
 <body class="">
   <!-- Header Section -->
 
-  <section class="bg-[#F2F2F2]  ">
-    <header class="max-w-[1200px] font-ubuntu  bg-[#F2F2F2] container mx-auto relative">
-      <div class="mx-auto flex flex-wrap  justify-between items-start">
+  <!-- Header Section -->
+  <section class="  header-sec  ">
+    <header class=" header-container ">
+      <div class=" header-content">
         <a href="index.html" target="_blank" class="flex pt-2" rel="noopener noreferrer">
-          <div class="lg:w-44">
+          <div class="lg:w-44 md:w-24">
             <img src="/images/dd-colored.png" alt="Logo" class=" " />
           </div>
 
-          <div class="lg:w-44 ps-3">
+          <div class="lg:w-44 md:w-24 ps-3">
             <img src="images/ascm-partner-mark_premier_training.jpg" class="" alt="" srcset="">
           </div>
-
         </a>
 
-
-
         <!-- Desktop Navigation -->
-        <nav class="hidden lg:flex justify-between items-start  text-xl space-x-12 text-black">
+        <nav class="hidden md:flex justify-between items-start lg:text-xl lg:space-x-12 md:space-x-4 text-black">
           <a href="index.html" class="nav-menue-active">Home</a>
-          <a href="about.html" class="nav-menue">
-            About
-          </a>
+          <a href="about.html" class="nav-menue">About</a>
           <a href="news.html" class="nav-menue">News</a>
           <a href="contact.html" class="nav-menue">Gallery</a>
           <a href="blog.html" class="nav-menue">Blog</a>
-
-
           <a href="contact.html" class="nav-menue">Contacts</a>
         </nav>
 
-        <div class="hidden lg:block w-[70px] border-b border-white mb-2 mx-3"></div>
+        <div class="hidden md:block w-[70px] border-b border-white mb-2 mx-3"></div>
 
-        <!-- Mobile Menu Button and Login for Tablet -->
-        <div class="flex items-center justify-center  w-full py-4 space-x-2 lg:hidden">
-          <!-- Login Button visible in the header for tablets -->
-
-          <!-- Toggle SVG always visible -->
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center justify-center w-full py-4 space-x-2 md:hidden">
           <div class="bg-primaryTheme p-1 px-2">
-
             <button class="text-white text-xl " onclick="toggleMenu()">
               <i class="fa-solid fa-bars"></i>
             </button>
           </div>
-
         </div>
       </div>
     </header>
+
     <!-- Mobile Navigation -->
     <nav id="mobileMenu"
-      class="hidden font-ubuntu lg:hidden bg-white text-center text-black p-4 relative top-0 left-0 right-0">
-
-
+      class="hidden font-ubuntu md:hidden bg-white text-center text-black p-4 relative top-0 left-0 right-0">
       <a href="index.html" class="mob-nav-menue-active">Home</a>
-
-      <a href="about.html" class="  mob-nav-menue">
-        About</a>
+      <a href="about.html" class="mob-nav-menue">About</a>
       <a href="news.html" class="mob-nav-menue">News</a>
       <a href="contact.html" class="mob-nav-menue">Gallery</a>
       <a href="blog.html" class="mob-nav-menue">Blog</a>
-
-
       <a href="contact.html" class="mob-nav-menue">Contacts</a>
     </nav>
-
   </section>
+
 
 
 
@@ -107,46 +91,51 @@
 
 
   <!-- section 2 starting -->
-  <div class="flex justify-center">
-    <button class="
-    
-    apics-primary-button">REQUEST INFORMATION</button>
 
-  </div>
-  <section class="home-2-section">
-    <div class="home-2-container">
-      <div class="home-2-cards-wrapper">
-        <!-- Card 1 -->
-        <div class="home-2-card">
-          <h3>CPIM</h3>
-          <p>Certified in Planning & Inventory Management</p>
-          <button>ENROLL</button>
-        </div>
-        <!-- Card 2 -->
-        <div class="home-2-card">
-          <h3>CSCP</h3>
-          <p>Certified Supply Chain Professional</p>
-          <button>ENROLL</button>
-        </div>
-        <!-- Card 3 -->
-        <div class="home-2-card">
-          <h3>SCOR</h3>
-          <p>SCOR Digital Standard (SCOR DS)</p>
-          <button>ENROLL</button>
-        </div>
-        <!-- Card 4 -->
-        <div class="home-2-card">
-          <h3>CLTD</h3>
-          <p>Certified in Logistics Transportation Distribution</p>
-          <button>ENROLL</button>
+
+  <section>
+    <div class="flex justify-center">
+      <button class="
+      
+      apics-primary-button">REQUEST INFORMATION</button>
+
+    </div>
+    <section class="home-2-section">
+      <div class="home-2-container">
+        <div class="home-2-cards-wrapper">
+          <!-- Card 1 -->
+          <div class="home-2-card">
+            <h3>CPIM</h3>
+            <p>Certified in Planning & Inventory Management</p>
+            <button>ENROLL</button>
+          </div>
+          <!-- Card 2 -->
+          <div class="home-2-card   ">
+            <h3>CSCP</h3>
+            <p>Certified Supply Chain Professional</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><button>ENROLL</button></a>
+          </div>
+          <!-- Card 3 -->
+          <div class="home-2-card">
+            <h3>SCOR</h3>
+            <p>SCOR Digital Standard (SCOR DS)</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><button>ENROLL</button></a>
+          </div>
+          <!-- Card 4 -->
+          <div class="home-2-card">
+            <h3>CLTD</h3>
+            <p>Certified in Logistics Transportation Distribution</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><button>ENROLL</button></a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="flex justify-center">
-      <button class="apics-primary-button">Training schedule in Hong Kong and Singapore</button>
+      <div class="flex justify-center">
+        <button class="apics-primary-button">Training schedule in Hong Kong and Singapore</button>
 
-    </div>
+      </div>
+    </section>
+
   </section>
 
   <!-- section 2 ending -->
@@ -156,7 +145,6 @@
 
 
   <!-- section 3 starting -->
-
   <section class="home-3-container">
 
     <h2 class="home-3-title"> Success Stories</h2>
@@ -164,7 +152,7 @@
     <div class="home-3-cards grid grid-cols-1 md:grid-cols-3 gap-6">
 
       <!-- Card 1 -->
-      <div class="home-3-card">
+      <div class="home-3-card wow animate__animated animate__fadeInLeft">
         <div class="icon">
           <img src="images/custom_word_growth_400_clr_18056.png" alt="Success Icon">
         </div>
@@ -190,7 +178,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="home-3-card">
+      <div class="home-3-card wow animate__animated animate__fadeInLeft">
         <div class="icon">
           <img src="images/oil_barrel_button_400_clr_16650.png" alt="Oil Icon">
         </div>
@@ -213,15 +201,15 @@
 
           </div>
 
-          <div class="button">
+          <a href="" target="_blank" rel="noopener noreferrer" class="button">
             <button class="apics-primary-button">More</button>
-          </div>
+          </a>
         </div>
 
       </div>
 
       <!-- Card 3 -->
-      <div class="home-3-card">
+      <div class="home-3-card wow animate__animated animate__fadeInLeft">
         <div class="icon">
           <img src="images/pound_maker_machine_150_clr_12368.gif" class="w-full" alt="Spice Icon">
         </div>
@@ -249,15 +237,393 @@
 
     </div>
   </section>
-
-
-
   <!-- 
   section 3 ending -->
 
 
 
+  <!-- section 4 starting -->
 
+  <section class="home-4-section">
+    <div class="home-4-overlay">
+      <div class="home-4-content">
+        <h2 class="home-4-heading">
+          Get life-changing <br />
+          learning experience
+        </h2>
+        <div class="lg:flex   overflow-hidden my-5">
+
+          <img src="images/mt-0024-home-study_abroad.png" alt="" class="mx-auto" srcset="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- section 4 ending -->
+
+  <!-- section 5 starting -->
+
+  <section class="home-5-container">
+    <div class="home-5-grid">
+      <div class="home-5-card  wow animate__animated animate__fadeInLeft">
+        <h3>Customer sharing</h3>
+        <p>Ingersoll Rand</p>
+        <div class="home-5-video">
+          <iframe src="https://www.youtube.com/embed/yUzGnfNq1y8" title="Ingersoll Rand Customer Success Story"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+      </div>
+
+      <div class="home-5-card  wow animate__animated animate__fadeInUp">
+        <h3>DuPont Case Study</h3>
+        <p>2016</p>
+        <div class="home-5-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/y5gqgz_ialc?si=XrVrwUP4kTBSZIVf"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="home-5-card wow animate__animated animate__fadeInUp">
+        <h3>GE Oil & Gas Case Study</h3>
+        <p>2015</p>
+        <div class="home-5-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7rVfLN4n0TI?si=K1AobIKEMUuLj52s"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="home-5-card  wow animate__animated animate__fadeInRight">
+        <h3>Lean Enterprise</h3>
+        <p>Workshop Series Introduction</p>
+        <div class="home-5-slideshare">
+          <iframe src="https://www.slideshare.net/embed/placeholder4" title="Lean Enterprise Workshop Series"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 5 ending -->
+
+
+
+  <!-- section 6 starting -->
+  <section class=" h-6-container wow animate__animated animate__bounceIn">
+    <div class="slider-two">
+      <!-- Slide 1 -->
+      <div class="  h-6-slider-img-container">
+        <img src="images/home-slider-1.jpg" alt="Banner Image" class="  h-6-img">
+      </div>
+
+      <!-- Slide 2 -->
+      <div class=" h-6-slider-img-container">
+        <img src="images/home-slider-2.jpg" alt="Banner Image" class=" h-6-img">
+      </div>
+
+      <!-- Slide 3 -->
+      <div class=" h-6-slider-img-container">
+        <img src="images/home-slider-3.jpg" alt="Banner Image" class=" h-6-img">
+      </div>
+      <!-- Slide 4 -->
+      <div class=" h-6-slider-img-container">
+        <img src="images/home-slider-4.jpg" alt="Banner Image" class=" h-6-img">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- section 6 ending -->
+
+
+  <!-- section 7 starting -->
+
+  <section class="home-7-container">
+    <div class="home-7-grid">
+      <!-- Left Column -->
+      <div class="home-7-card wow animate__animated animate__fadeInUp">
+        <div class="home-7-img-container">
+          <img src="images/calander-events-1.jpg" alt="Why COVID-19 Transformation" />
+        </div>
+
+        <h3>Why COVID-19 amplified the digital supply chain transformation? <br> <span class="underline">Agenda of this
+            webinar</span> </h3>
+
+        <p>Explore the origins and goals of the Supply Chain Operations Reference (SCOR®) model framework.</p>
+        <p>Work with the four central parts of the SCOR framework: Performance, Processes, Practices, People.</p>
+        <p>Understand the structure of SCOR Digital Standard. What best practices or tools are available to prepare,
+          respond, and recover from supply chain disruption thru different digital capabilities?</p>
+        <p>Q&A and preview of upcoming webinars</p>
+        <a href="#" class="home-7-link">DONATE NOW</a>
+        <p>
+          Hong Kong Red Cross (HKRC) will be the “Beneficiary Organization” of this event. All donation raised will be
+          used to support the HKRC’s humanitarian works on “Beat COVID-19 Pandemic” without cost deduction.
+        </p>
+        <p>
+          香港紅十字會是次活動的受惠機構，所有款項將會不扣除成本，全數撥捐香港紅十字會以支持「新型冠狀病毒疫情」防疫工作。
+        </p>
+        <button class="apics-primary-button">Enroll</button>
+      </div>
+
+      <!-- Right Column -->
+      <div class="home-7-card wow animate__animated animate__fadeInUp ">
+        <div class="home-7-img-container"> <img src="images/calander-events-2.jpg" alt="APICS SCOR Training" /></div>
+
+        <h3>APICS SCOR - Professional Training (SCOR-p)</h3>
+        <p>Why you need to earn the APICS SCOR-p Endorsement:</p>
+        <ul>
+          <li>Production management</li>
+          <li>Operations</li>
+          <li>Supply chain management</li>
+          <li>Procurement</li>
+          <li>Materials management</li>
+          <li>Inventory management</li>
+        </ul>
+        <p>An APICS SCOR-P endorsement will help you:</p>
+        <ul>
+          <li>Establish benchmarks for evaluating supply chain effectiveness</li>
+          <li>Provide real-world techniques for measuring and managing a global supply chain</li>
+          <li>Provide a practical method for assessing the skills and competencies of your current supply chain team
+            members and recruits</li>
+          <li>Dramatically increase supply chain improvement and performance</li>
+        </ul>
+        <button class="apics-primary-button">Enroll</button>
+      </div>
+    </div>
+
+
+    <div class="home-7-card wow animate__animated animate__fadeInUp">
+      <div class="home-7-img-container">
+        <img src="images/calander-events-3.jpg" alt="APICS CSCP" />
+      </div>
+
+      <h3>APICS CSCP - Certified Supply Chain Professional <br>
+        <span class="underline">供应链职业人士专业资格认证</span>
+      </h3>
+
+      <p>APICS CSCP is a new professional development / education and certification program, which becomes the global
+        standard in supply chain education and certification since its introduction in 2006. It offers a broad view of
+        the field that extends beyond internal operations to encompass all the steps throughout the entire supply chain
+        – from the supplier through the company, to the end consumer.</p>
+
+      <p>The APICS CSCP Learning System is a comprehensive professional development and exam preparation program. It
+        consists of three print modules and web-based study tools that reflect the entire APICS CSCP Exam Content Manual
+        (ECM) and provides you with a broad view of global end-to-end supply chain management.</p>
+
+      <p>The CSCP Learning System:</p>
+      <ul>
+        <li>Module1 Supply Chain Design</li>
+        <li>Module2 Supply Chain Planning and Execution</li>
+        <li>Module3 Supply Chain Improvements and Best Practices</li>
+      </ul>
+
+      <p>CSCP is warmly welcomed by the high-level supply chain management professionals and the consultants from the
+        world when it first comes to the market. Till end of 2013, the fact is:</p>
+      <ul>
+        <li>★ Over 32,000 APICS CSCP Learning Systems sold</li>
+        <li>★ Over 24,000 APICS CSCP exams administered</li>
+        <li>★ Almost 15,000 APICS CSCP designees working worldwide</li>
+      </ul>
+      <a href="" target="_blank" rel="noopener noreferrer" class="button">
+        <button class="apics-primary-button">More</button>
+      </a>
+    </div>
+    <div class="home-8-card  wow animate__animated animate__fadeInUp">
+
+      <div class="lg:w-1/2">
+
+        <div class="home-8-img-container">
+          <img src="images/calander-events-4.jpg" alt="APICS CSCP" />
+        </div>
+      </div>
+
+      <div class="lg:w-1/2">
+        <h3>APICS CPIM - Part 1: Basics of Supply Chain Management <br>
+          <span class="underline">供应链管理核心</span>
+        </h3>
+
+        <ul>
+          <li>Introduction to Supply Chain Management</li>
+          <li>Demand Management</li>
+          <li>Master Planning</li>
+          <li>Material Requirements Planning</li>
+          <li>Capacity Management</li>
+          <li>Purchasing</li>
+          <li>Inventory Management</li>
+          <li>Execution and Control</li>
+          <li>Physical Distribution</li>
+          <li>Continuous Improvement</li>
+        </ul>
+
+        <a href="https://www.eventbrite.hk/e/apicshk-new-cpim-part-1-master-instructor-led-training-bscm-tickets-32404604043?aff=apicshk"
+          target="_blank" rel="noopener noreferrer" class="button">
+          <button class="apics-primary-button">Enroll</button>
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="home-8-card wow animate__animated animate__fadeInUp">
+
+      <div class="lg:w-1/2">
+
+        <div class="home-8-img-container">
+          <img src="images/calander-events-5.jpg" alt="APICS CSCP" />
+        </div>
+      </div>
+
+      <div class="lg:w-1/2">
+        <h3>APICS New CPIM Part 2 - (4 in 1), including traditional MPR, DSP, ECO, SMR</h3>
+
+        <ul>
+          <li>Module 1: Strategic Management of Resources (SMR)</li>
+          <li>Developing a Business Strategy</li>
+          <li>Gathering and Analyzing Internal/External Information</li>
+          <li>Where Will We Compete?</li>
+          <li>How Will We Compete?</li>
+          <li>Sustainability and Strategy</li>
+          <li>Business Planning</li>
+          <li>Aligning the Operations Strategy</li>
+          <li>Infrastructure</li>
+          <li>Module 2: Master Planning of Resources (MPR)</li>
+          <li>Demand Management</li>
+          <li>Sales and Operations Planning</li>
+          <li>Master Scheduling</li>
+          <li>Distribution Planning</li>
+          <li>Module 3: Detailed Scheduling and Planning (DSP)</li>
+          <li>Inventory Management</li>
+          <li>Materials Requirement Planning</li>
+          <li>Managing Projects</li>
+          <li>Detailed Capacity Planning</li>
+          <li>Planning Procurement and External Sources of Supply</li>
+          <li>Module 4: Execution and Control of Operations (ECO)</li>
+          <li>Execution of Operations</li>
+          <li>Scheduling and Authorization</li>
+          <li>Quality, Communication and Continuous Improvement</li>
+          <li>Design Concepts and Trade-Offs</li>
+        </ul>
+
+        <a href="https://www.eventbrite.hk/e/apicshk-new-cpim-part-2-master-instructor-led-training-4-in-1-tickets-25255309310?aff=apicshk"
+          target="_blank" rel="noopener noreferrer" class="button">
+          <button class="apics-primary-button">Enroll</button>
+        </a>
+      </div>
+
+    </div>
+    <div class="home-8-card wow animate__animated animate__fadeInUp">
+
+      <div class="lg:w-1/2">
+
+        <div class="home-8-img-container">
+          <img src="images/calander-events-6.jpg" alt="APICS CLTD" />
+        </div>
+      </div>
+
+      <div class="lg:w-1/2">
+        <h3>APICS CLTD - Certified in Logistics, Transportation and Distribution</h3>
+
+        <p>The APICS Certified in Logistics, Transportation and Distribution (CLTD) designation assesses individuals
+          based on a comprehensive body of knowledge, best practices and standards for those in the logistics,
+          transportation and distribution industries. Earning the CLTD credential makes you a recognized expert in the
+          logistics, transportation and distribution fields. Certification demonstrates in-depth knowledge of a broad
+          range of topics to set you apart from your colleagues — proving your high level of knowledge and skills. The
+          CLTD will make you a more valuable asset to your organization, keeping you and your organization more
+          competitive in today’s global economy.</p>
+
+        <a href="https://www.eventbrite.hk/e/apicshk-cltd-certified-in-logistics-transportation-and-distribution-tickets-25560651597?aff=APICSHK"
+          target="_blank" rel="noopener noreferrer" class="button">
+          <button class="apics-primary-button">Enroll</button>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="home-8-card wow animate__animated animate__fadeInUp">
+
+      <div class="lg:w-1/2">
+        <div class="home-8-img-container">
+          <img src="images/calander-events-7.jpg" alt="Data-Driven Planning" />
+        </div>
+      </div>
+
+      <div class="lg:w-1/2">
+        <h3>Data-Driven Intelligent Business Planning (DDIDP)</h3>
+
+        <p><strong>Learning objectives:</strong></p>
+        <ul class="opacity-60">
+          <li>To discover the core problem in traditional supply chain planning</li>
+          <li>This workshop with hands-on simulation is intended to prepare a team to understand the essential
+            difference between Re-order Point (ROP), Material Requirements Planning (MRP), Make-To-Availability (MTA)
+            and Demand Driven Material Requirements Planning (DDMRP) as an introduction.</li>
+          <li>To experience the difference between forecasting-based and consumption-based planning methods thru an
+            online simulation game</li>
+          <li>To understand how the dynamic simulator, worksheet-based AI forecasting and cloud-based application
+            software for supply chain planning</li>
+        </ul>
+
+        <a href="https://www.eventbrite.hk/e/data-driven-intelligent-business-planning-ddibp-tickets-363916131947?aff=APICSHK"
+          target="_blank" rel="noopener noreferrer" class="button">
+          <button class="apics-primary-button">Enroll</button>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- section 7 ending -->
+
+
+
+
+
+  <!-- section 9 starting -->
+
+  <section class="home-9-map-container">
+    <iframe class="home-9-map-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d236166.5163801803!2d113.62749!3d22.349784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005c073fffff%3A0xa976e7763ddfc9c!2sRegus%20-%20Hong%20Kong%20Central%20Plaza!5e0!3m2!1sen!2sus!4v1737804803134!5m2!1sen!2sus"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+
+  <!-- section 9 ending -->
+
+
+  <!-- section 10 starting -->
+  <div class="fixed bottom-4 right-4 home-9-back-to-top hidden">
+    <button id="backToTop" class="back-to-top-btn" onclick="scrollToTop()">
+      ↑
+    </button>
+  </div>
+
+
+  <!-- section 10 ending -->
+
+
+  <!-- footer starting -->
+
+  <footer>
+
+    <p>www.apics.hk © 2016 .</p>
+
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+
+
+
+
+  <!-- footer ending -->
 
 
 
@@ -268,7 +634,10 @@
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
   <script>
+
+
     $(document).ready(function () {
+      // Initialize the first slider with arrows
       $('.slider').slick({
         autoplay: true,
         autoplaySpeed: 5000,
@@ -277,19 +646,52 @@
         infinite: true,
         fade: true,
         prevArrow: `<button type="button" class="h-banner-prev">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 lg:h-7 lg:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                    </svg>
-                  </button>`,
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 lg:h-7 lg:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>`,
         nextArrow: `<button type="button" class="h-banner-next">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 lg:h-7 lg:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </button>`,
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 lg:h-7 lg:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>`,
+      });
+
+      // Initialize the second slider without arrows
+      $('.slider-two').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        fade: true,
       });
     });
+
   </script>
 
+  <!-- js for backto top -->
+  <script>
+    const backToTopButton = document.getElementById("backToTop");
+
+    // Show/hide the button based on the scroll position
+    window.addEventListener("scroll", () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 200) {
+        backToTopButton.parentElement.classList.remove("hidden");
+      } else {
+        backToTopButton.parentElement.classList.add("hidden");
+      }
+    });
+
+    // Function to scroll to the top
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Smooth scrolling
+      });
+    }
+  </script>
 
   </script>
   <!-- js for nav -->

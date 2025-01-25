@@ -29,6 +29,19 @@
 }
 
 /* navbar styles starting */
+
+.header-sec {
+  @apply bg-[#F2F2F2] md:fixed md:w-full md:z-20;
+}
+
+.header-container {
+  @apply max-w-[1200px] font-ubuntu bg-[#F2F2F2] container mx-auto relative;
+}
+
+.header-content {
+  @apply mx-auto flex flex-wrap justify-between items-start;
+}
+
 .nav-menue-active {
   @apply hover:text-primaryTheme  uppercase hover:border-t-[5px]  border-t-[3px]  border-primaryTheme text-primaryTheme  pt-6 font-bold;
 }
@@ -57,7 +70,7 @@
 }
 
 .apics-primary-button {
-  @apply btn bg-secondTheme leading-[37px] my-10 text-2xl rounded-none hover:bg-primaryTheme h-[70px] text-white flex justify-center items-center    px-8;
+  @apply btn bg-secondTheme lg:max-w-full max-w-[250px] h-auto leading-[37px] my-10 text-2xl rounded-none hover:bg-primaryTheme lg:h-[70px] text-white flex justify-center items-center    px-8;
 }
 
 /* home section 2 style starting */
@@ -69,28 +82,28 @@
 
 /* Container */
 .home-2-container {
-  @apply mx-auto px-4;
+  @apply mx-auto lg:max-w-[1300px] px-4;
 }
 
 /* Cards Wrapper */
 .home-2-cards-wrapper {
-  @apply flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8;
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center lg:items-start gap-8;
 }
 
 /* Card Styling with Nested Elements */
 .home-2-card {
-  @apply bg-primaryTheme text-center px-5 pt-5 pb-10 lg:space-y-12 w-72;
+  @apply bg-primaryTheme  mx-auto text-center px-5 pt-5 pb-10 lg:space-y-12 w-72;
 
   h3 {
-    @apply lg:text-[100px] text-[40px] leading-[80px] font-ubuntu text-white mb-4;
+    @apply md:text-[100px] text-[40px] leading-[80px] font-ubuntu text-white mb-4;
   }
 
   p {
-    @apply text-white text-[30px] lg:text-[39px] leading-[47px] mb-6;
+    @apply text-white  text-[30px] md:text-[39px] leading-[47px] mb-6;
   }
 
   button {
-    @apply bg-white text-black py-2 px-6  text-xl  shadow hover:bg-black hover:text-white;
+    @apply bg-white text-black py-2 px-6 mt-5 text-xl shadow hover:bg-black hover:text-white;
   }
 }
 
@@ -108,15 +121,15 @@
   @apply text-[50px] py-12;
 }
 .home-3-card {
-  @apply bg-white p-6 flex border-b-2;
+  @apply bg-white p-6 flex lg:flex-row flex-col border-b-2;
 }
 
 .home-3-card .icon {
-  @apply mb-4 w-72 overflow-hidden;
+  @apply mb-4 lg:w-72 overflow-hidden;
 }
 
 .home-3-card .icon img {
-  @apply pe-5 w-full;
+  @apply lg:pe-5  w-full;
 }
 
 .home-3-card h3 {
@@ -139,5 +152,192 @@
 }
 
 /* home section 3 style ending */
+
+/* home section 4 style starting */
+
+@layer components {
+  .home-4-section {
+    @apply relative min-h-[200px] lg:min-h-[400px]  bg-fixed my-[50px]  bg-top bg-center bg-cover;
+    background-image: url("images/mt-0024-home-parallax1.jpg");
+  }
+
+  .home-4-overlay {
+    @apply absolute inset-0  bg-opacity-20 flex items-center;
+  }
+
+  .home-4-content {
+    @apply flex mx-auto lg:flex-row flex-col lg:justify-between lg:space-x-24 px-6;
+  }
+
+  .home-4-heading {
+    @apply text-4xl text-black font-ubuntu   lg:text-8xl  md:text-5xl;
+  }
+
+  .home-4-icon {
+    @apply inline-block mx-auto mt-4 text-yellow-500;
+  }
+}
+
+/* home section 4 style ending */
+
+/* home section 5 style starting */
+@layer components {
+  .home-5-container {
+    @apply py-12 lg:max-w-[1200px] mx-auto px-6 bg-white;
+  }
+
+  .home-5-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6;
+  }
+
+  .home-5-card {
+    @apply flex  space-y-5 flex-col justify-start items-start text-start;
+
+    h3 {
+      @apply text-2xl lg:text-5xl font-ubuntu  text-gray-800 mb-2;
+    }
+
+    p {
+      @apply font-ubuntu  mb-4;
+    }
+
+    iframe {
+      @apply w-full h-48 sm:h-56;
+    }
+  }
+}
+
+/* home section 5 style ending */
+
+/* home section 6 style ending */
+.h-6-container {
+  @apply overflow-hidden my-[50px];
+}
+.h-6-slider-img-container {
+  @apply w-full;
+}
+.h-6-img {
+  @apply w-full object-cover;
+}
+
+/* home section 6 style ending */
+
+/* home section 7 style starting */
+
+@layer components {
+  .home-7-container {
+    @apply max-w-[1200px] font-helvetica leading-[20px] mx-auto py-12 px-6;
+  }
+  .home-7-img-container {
+    @apply w-full flex justify-center overflow-hidden object-cover mb-4;
+  }
+  .home-7-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+  }
+  .home-7-card-col-layout {
+    @apply flex flex-col items-start border-b-[1px]  p-6;
+  }
+
+  .home-7-card-row-layout {
+    @apply flex  items-start border-b-[1px]  p-6;
+  }
+  .home-7-card {
+    h3 {
+      @apply font-semibold text-base text-gray-800 mb-2;
+    }
+
+    a.home-7-link {
+      @apply text-primaryTheme hover:underline mt-4;
+    }
+
+    p {
+      @apply text-sm text-gray-600  leading-relaxed;
+    }
+
+    ul {
+      @apply text-sm text-gray-600;
+    }
+
+    li {
+      @apply mb-2;
+    }
+  }
+}
+
+/* home section 7 style ending */
+/* home section 8 style starting */
+@layer components {
+  .home-8-container {
+    @apply max-w-[1200px] font-helvetica leading-[20px] mx-auto py-12 px-6;
+  }
+  .home-8-img-container {
+    @apply w-full flex justify-center overflow-hidden object-cover mb-4;
+  }
+  .home-8-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+  }
+
+  .home-8-card {
+    @apply flex lg:flex-row flex-col  items-start border-b-[1px]  p-6;
+
+    h3 {
+      @apply font-semibold text-base text-gray-800 mb-2;
+    }
+
+    a.home-7-link {
+      @apply text-primaryTheme hover:underline mt-4;
+    }
+
+    p {
+      @apply text-sm text-gray-600  leading-relaxed;
+    }
+
+    ul {
+      @apply text-sm text-gray-600;
+    }
+
+    li {
+      @apply mb-2;
+    }
+  }
+}
+/* home section 8 style ending */
+
+/* home section 9 style starting */
+.home-9-map-container {
+  @apply lg:pt-[50px] relative; /* Removed fixed height */
+}
+
+.home-9-map-iframe {
+  @apply h-[80vh] mt-[50px] block; /* Removed relative to respect margin spacing */
+}
+
+/* home section 9 style ending */
+
+/* back to top section style starting */
+@layer components {
+  .home-9-back-to-top {
+    @apply z-50; /* Make sure it's above all other elements */
+  }
+
+  .back-to-top-btn {
+    @apply bg-primaryTheme h-24 w-16 text-4xl text-white p-3 opacity-60   hover:opacity-100 transition-all;
+  }
+}
+/* back to top section style ending */
+
+/* footer style starting */
+footer {
+  @apply flex lg:max-w-[1400px] mx-auto lg:h-[100px] h-[70px] space-x-2 text-xs text-gray-500 pt-3 z-20;
+
+  a {
+    @apply underline;
+  }
+
+  p {
+    @apply ps-3;
+  }
+}
+/* footer style ending */
 
 /* home page style ending */
