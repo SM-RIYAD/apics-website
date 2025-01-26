@@ -13,7 +13,10 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-
+section {
+  margin: 0;
+  padding: 0;
+}
 .shadow-class {
   box-shadow: 0 0 7px 1px #23564a;
 }
@@ -42,6 +45,12 @@
   @apply mx-auto flex flex-wrap justify-between items-start;
 }
 
+.desktop-nav {
+  @apply hidden md:flex justify-between items-start lg:text-xl lg:space-x-12 md:space-x-4 text-black;
+}
+.mobile-menue {
+  @apply flex items-center justify-center w-full py-4 space-x-2 md:hidden;
+}
 .nav-menue-active {
   @apply hover:text-primaryTheme  uppercase hover:border-t-[5px]  border-t-[3px]  border-primaryTheme text-primaryTheme  pt-6 font-bold;
 }
@@ -341,3 +350,165 @@ footer {
 /* footer style ending */
 
 /* home page style ending */
+
+/* about page style starting */
+
+/* about section 1 style starting */
+
+.about-1-container {
+  @apply lg:max-w-[1200px] pt-[10%] pb-0 px-4 font-ubuntu mx-auto space-y-10;
+
+  h1 {
+    @apply text-4xl lg:text-5xl;
+  }
+
+  p {
+    @apply text-xl;
+  }
+}
+
+.about-1-img-container {
+  @apply lg:h-[100vh] w-full overflow-hidden;
+}
+.about-1-img-container {
+  @apply w-full flex justify-center overflow-hidden object-cover mb-4;
+}
+.about-1-card {
+  @apply flex lg:flex-row flex-col mx-auto lg:min-w-[400px] md:justify-start justify-center items-center  md:items-start   p-6;
+
+  h3 {
+    @apply text-[20px] font-[500] font-ubuntu text-black mb-2;
+  }
+
+  a.home-7-link {
+    @apply text-primaryTheme hover:underline mt-4;
+  }
+
+  p {
+    @apply text-sm text-gray-600  leading-relaxed;
+  }
+
+  ul {
+    @apply text-sm font-helvetica font-[300] text-gray-600;
+  }
+
+  li {
+    @apply mb-2;
+  }
+}
+
+/* about section 1 style ending */
+/* about section 2 style starting */
+.about-section-2-container {
+  @apply lg:max-w-[1300px]  mx-auto;
+
+  h2 {
+    @apply text-[20px] lg:ps-20 mt-5 px-4 font-[500] font-ubuntu text-black mb-2;
+  }
+}
+
+/* about section 2 style ending */
+
+/* about section 3 style starting */
+.about-3-section {
+  @apply relative min-h-[250px] lg:min-h-[400px]  bg-fixed mt-[50px]  bg-center  bg-cover;
+  background-image: url("images/about-para.jpg");
+}
+
+.about-4-section {
+  h3 {
+    @apply text-center text-4xl lg:text-5xl my-5 font-ubuntu;
+  }
+}
+/* about section 3 style ending */
+
+/* about page style ending */
+
+/* news page style starting */
+/* 
+news section 1 style starting */
+
+.news-1-container {
+  @apply flex flex-col font-ubuntu px-4 lg:max-w-[1200px] mx-auto items-center space-y-10  pt-[10%];
+}
+h1 {
+  @apply w-full font-bold italic text-3xl lg:text-5xl text-start  font-ubuntu;
+}
+.news-1-item {
+  @apply w-full;
+
+  h2 {
+    @apply md:text-[39px] text-[24px] text-center text-gray-800;
+  }
+  p {
+    @apply md:text-[39px]  text-[24px] hover:text-primaryTheme w-full underline text-center text-gray-800 mb-4;
+  }
+
+  .news-1-img-container {
+    @apply w-full  lg:h-[80vh] overflow-hidden;
+  }
+
+  iframe {
+    @apply w-full h-full md:h-[90vh];
+  }
+}
+/* 
+news section 1 style ending */
+
+/* 
+news section 2 style starting */
+
+.news-2-container {
+  @apply mt-12 px-6 lg:max-w-[1200px] mx-auto;
+}
+
+.news-2-header {
+  @apply w-full font-semibold  text-3xl lg:text-5xl text-start  font-ubuntu;
+}
+
+.news-2-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6;
+}
+
+.news-2-card {
+  @apply flex font-ubuntu flex-col items-center  p-6 text-center;
+}
+
+.news-2-card p {
+  @apply text-[19px] text-start text-gray-800 mb-5;
+}
+
+.news-2-card button {
+  @apply btn bg-secondTheme lg:max-w-full max-w-[250px] h-auto leading-[37px]  text-2xl rounded-none hover:bg-primaryTheme lg:h-[60px] text-white flex justify-center items-center    px-8;
+}
+
+.news-2-icon-container {
+  @apply w-full overflow-hidden h-[200px] flex justify-start items-center rounded-b-none rounded-lg mb-4;
+}
+
+.news-2-icon {
+}
+/* 
+news section 2 style ending */
+
+/* 
+news section 3 style starting */
+
+.news-3-section {
+  @apply relative min-h-[300px] lg:min-h-[500px]  bg-fixed mt-[50px]  bg-center  bg-cover;
+  background-image: url("images/news-para.jpg");
+}
+
+.news-3-content {
+  @apply mx-auto px-5  flex-col items-start lg:justify-start;
+
+  p {
+    @apply font-ubuntu text-2xl my-5 max-w-[900px]  text-start w-full  flex;
+  }
+}
+
+/* 
+news section 3 style ending */
+
+/* 
+news page style ending */
