@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en " data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <title>apics</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section starting -->
+    <section class="  header-sec  ">
+        <header class=" header-container ">
+            <div class=" header-content">
+                <a href="index.html" target="_blank" class="flex pt-2" rel="noopener noreferrer">
+                    <div class="lg:w-44 md:w-24">
+                        <img src="/images/dd-colored.png" alt="Logo" class=" " />
+                    </div>
+
+                    <div class="lg:w-44 md:w-24 ps-3">
+                        <img src="images/ascm-partner-mark_premier_training.jpg" class="" alt="" srcset="">
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class=" desktop-nav ">
+                    <a href="index.html" class="nav-menue">Home</a>
+                    <a href="about.html" class="nav-menue">About</a>
+                    <a href="news.html" class="nav-menue">News</a>
+                    <a href="gallery.html" class="nav-menue-active">Gallery</a>
+                    <a href="blog.html" class="nav-menue">Blog</a>
+                    <a href="contact.html" class="nav-menue">Contacts</a>
+                </nav>
+
+                <div class="hidden md:block w-[70px] border-b border-white mb-2 mx-3"></div>
+
+                <!-- Mobile Menu Button -->
+                <div class="mobile-menue ">
+                    <div class="bg-primaryTheme p-1 px-2">
+                        <button class="text-white text-xl " onclick="toggleMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <nav id="mobileMenu"
+            class="hidden font-ubuntu md:hidden bg-white text-center text-black p-4 relative top-0 left-0 right-0">
+            <a href="index.html" class="mob-nav-menue">Home</a>
+            <a href="about.html" class="mob-nav-menue">About</a>
+            <a href="news.html" class="mob-nav-menue">News</a>
+            <a href="gallery.html" class="mob-nav-menue-active">Gallery</a>
+            <a href="blog.html" class="mob-nav-menue">Blog</a>
+            <a href="contact.html" class="mob-nav-menue">Contacts</a>
+        </nav>
+    </section>
+    <!-- Header Section ending -->
+
+    <!-- 
+          section 1 starting -->
+
+    <section class="gallery-1-section max-w-[1200px] mx-auto pt-[10%] p-4">
+
+
+        <h2> Our Gallery</h2>
+
+        <!-- Gallery Flex Container -->
+        <div class="gallery-1-container flex flex-col gap-8">
+            <!-- Row 1 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[35%]  w-full  " onclick="openLightbox(0)">
+                    <img src="images/gallery-pic-1.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[30%]  w-full  " onclick="openLightbox(1)">
+                    <img src="images/gallery-pic-2.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text ">Conference Meeting</span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[35%]  w-full " onclick="openLightbox(2)">
+                    <img src="images/gallery-pic-3.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text ">Award
+                            Ceremony</span>
+                    </div>
+                </div>
+            </div>
+            <!-- row 2 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(3)">
+                    <img src="images/gallery-pic-4.jpg" alt="Gallery Image 4" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(4)">
+                    <img src="images/gallery-pic-5.jpg" alt="Gallery Image 5" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- row 3 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(5)">
+                    <img src="images/gallery-pic-6.jpg" alt="" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(6)">
+                    <img src="images/gallery-pic-7.jpg" alt="" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- row 4 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(7)">
+                    <img src="images/gallery-pic-8.jpg" alt="" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(8)">
+                    <img src="images/gallery-pic-9.jpg" alt="" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- row 5 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(9)">
+                    <img src="images/gallery-pic-10.jpg" alt="" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(10)">
+                    <img src="images/gallery-pic-11.jpg" alt="" />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- row 6 -->
+
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[35%]  w-full  " onclick="openLightbox(11)">
+                    <img src="images/gallery-pic-12.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[30%]  w-full  " onclick="openLightbox(12)">
+                    <img src="images/gallery-pic-13.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text ">2017 Student Case Competition briefing session</span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[35%]  w-full " onclick="openLightbox(13)">
+                    <img src="images/gallery-pic-14.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text "></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- row 7 -->
+
+            <div class="gallery-row ">
+                <div class="gallery-1-item lg:w-[35%]  w-full  " onclick="openLightbox(14)">
+                    <img src="images/gallery-pic-15.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[30%]  w-full  " onclick="openLightbox(15)">
+                    <img src="images/gallery-pic-16.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text ">2017 Student Case Competition briefing session</span>
+                    </div>
+                </div>
+                <div class="gallery-1-item lg:w-[35%]  w-full " onclick="openLightbox(16)">
+                    <img src="images/gallery-pic-17.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text "></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- row 8 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item  w-full  " onclick="openLightbox(17)">
+                    <img src="images/gallery-pic-18.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- row 9 -->
+            <div class="gallery-row ">
+                <div class="gallery-1-item  w-full  " onclick="openLightbox(18)">
+                    <img src="images/gallery-pic-19.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="gallery-1-lightbox" class="  hidden fixed inset-0   z-50 flex items-center justify-center">
+            <div class="relative bg-black bg-opacity-75 lg:px-[10%]  h-full pt-24  w-full">
+                <button class="gallery-1-close" onclick="closeLightbox()">&times;</button>
+                <div class=" lightbox-img-container ">
+
+                    <img id="gallery-1-current" src="path-to-your-image.jpg" alt="Current Gallery Image"
+                        class="w-full  object-cover" />
+
+                </div>
+
+                <div id="gallery-1-heading" class="text-start text-white text-lg mt-2"></div>
+                <!-- Navigation Arrows -->
+                <button class="gallery-1-prev " onclick="prevImage()">&#8249;</button>
+                <button class="gallery-1-next " onclick="nextImage()">&#8250;</button>
+                <!-- Picture Count -->
+                <div class="text-end text-white text-sm ">
+                    <span id="gallery-1-current-index">1</span> / <span id="gallery-1-total-count">3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 1 ending -->
+
+    <!-- section 2 starting -->
+
+    <section class="gallery-3-sec">
+        <div class="home-4-overlay">
+            <div class="home-4-content">
+                <h2 class="home-4-heading">
+                    Unlimited educational <br> opportunities
+                </h2>
+                <div class="lg:flex   overflow-hidden my-5">
+
+                    <img src="images/mt-0024-home-study_abroad.png" alt="" class="mx-auto" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-4-section">
+        <h3> Find the perfect supply chain management program to meet your needs</h3>
+
+        <div class=" flex md:flex-row flex-col ">
+
+            <div class="gallery-4-content  ">
+
+                <img src="images/gallery-cell.gif" alt="" srcset="">
+            </div>
+
+            <div class="gallery-4-content">
+                <h3>
+                    Call for free consultancy <br>
+                    +852 2312 6038
+                </h3>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- section 2 ending -->
+
+
+
+    <!-- back to top section  starting -->
+    <div class="fixed bottom-4 right-4 home-9-back-to-top hidden">
+        <button id="backToTop" class="back-to-top-btn" onclick="scrollToTop()">
+            ↑
+        </button>
+    </div>
+
+
+    <!-- back  to top section  ending -->
+
+
+    <!-- footer starting -->
+
+    <footer>
+
+        <p>www.apics.hk © 2016 .</p>
+
+        <a href="privacy.html">Privacy Policy</a>
+    </footer>
+
+
+
+
+    <!-- footer ending -->
+
+
+
+
+
+
+    <!-- js for backto top -->
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        // Show/hide the button based on the scroll position
+        window.addEventListener("scroll", () => {
+            const scrollPosition = window.scrollY;
+            if (scrollPosition > 200) {
+                backToTopButton.parentElement.classList.remove("hidden");
+            } else {
+                backToTopButton.parentElement.classList.add("hidden");
+            }
+        });
+
+        // Function to scroll to the top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth", // Smooth scrolling
+            });
+        }
+    </script>
+
+    </script>
+    <!-- js for nav -->
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobileMenu");
+            mobileMenu.classList.toggle("hidden");
+        }
+    </script>
+    <!-- 
+    wow js animation js -->
+    <script>
+        new WOW({
+            boxClass: "wow", // Class to identify elements for animations
+            animateClass: "animate__animated", // Animation class from Animate.css
+            offset: 100, // Trigger point in px before element appears in viewport
+            mobile: true, // Enable animations on mobile devices
+            live: true, // Act on dynamically loaded content
+        }).init();
+    </script>
+
+
+
+
+    <!-- js for gallery -->
+    <script>
+        const images = [
+            { src: "images/gallery-pic-1.jpg", heading: "Building Overview" },
+            { src: "images/gallery-pic-2.jpg", heading: "Conference Meeting" },
+            { src: "images/gallery-pic-3.jpg", heading: "Award Ceremony" },
+            { src: "images/gallery-pic-4.jpg", heading: "Award Ceremony" },
+            { src: "images/gallery-pic-5.jpg", heading: "Award Ceremony" },
+            { src: "images/gallery-pic-6.jpg", heading: "" },
+            { src: "images/gallery-pic-7.jpg", heading: "" },
+            { src: "images/gallery-pic-8.jpg", heading: "" },
+            { src: "images/gallery-pic-9.jpg", heading: "" },
+            { src: "images/gallery-pic-10.jpg", heading: "" },
+            { src: "images/gallery-pic-11.jpg", heading: "" },
+            { src: "images/gallery-pic-12.jpg", heading: "" },
+            { src: "images/gallery-pic-13.jpg", heading: "" },
+            { src: "images/gallery-pic-14.jpg", heading: "" },
+            { src: "images/gallery-pic-15.jpg", heading: "" },
+            { src: "images/gallery-pic-16.jpg", heading: "" },
+            { src: "images/gallery-pic-17.jpg", heading: "" },
+
+
+        ];
+        let currentIndex = 0;
+
+        function openLightbox(index) {
+            currentIndex = index;
+            document.getElementById("gallery-1-lightbox").classList.remove("hidden");
+            updateLightbox();
+        }
+
+        function closeLightbox() {
+            document.getElementById("gallery-1-lightbox").classList.add("hidden");
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateLightbox();
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateLightbox();
+        }
+
+        function updateLightbox() {
+            const { src, heading } = images[currentIndex];
+            document.getElementById("gallery-1-current").src = src;
+            document.getElementById("gallery-1-heading").textContent = heading;
+            document.getElementById("gallery-1-current-index").textContent = currentIndex + 1;
+            document.getElementById("gallery-1-total-count").textContent = images.length;
+        }
+    </script>
+
+</body>
+
+</html>

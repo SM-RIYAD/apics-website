@@ -512,3 +512,72 @@ news section 3 style ending */
 
 /* 
 news page style ending */
+
+/* gallery  page style starting */
+
+/* gallery section 1 style starting  */
+@layer components {
+  .gallery-1-section {
+    @apply w-full pt-[5%];
+
+    h2 {
+      @apply text-4xl lg:text-5xl text-start py-12 font-ubuntu;
+    }
+  }
+  .gallery-1-item {
+    @apply flex justify-center items-center lg:h-[25vh] overflow-hidden cursor-pointer relative;
+
+    img {
+      @apply h-full w-full object-cover transition hover:opacity-80;
+    }
+  }
+  .gallery-1-prev {
+    @apply absolute top-1/2 left-2 transform text-4xl lg:text-8xl -translate-y-1/2 text-white hover:bg-transparent   p-2 shadow;
+  }
+  .gallery-1-next {
+    @apply absolute top-1/2 right-2 transform text-4xl lg:text-8xl -translate-y-1/2 text-white hover:bg-transparent   p-2 shadow;
+  }
+
+  .gallery-lightbox {
+    @apply hidden fixed inset-0   z-50 flex items-center justify-center;
+  }
+
+  .lightbox-img-container {
+    @apply lg:max-h-[80vh] h-full items-center justify-center flex flex-col px-[12]   overflow-hidden;
+  }
+
+  .gallery-1-close {
+    @apply absolute lg:top-2 top-[10%]  right-[10%] text-gray-600 hover:text-red-600 text-3xl font-bold;
+  }
+  .gallery-overlay {
+    @apply text-center transition-all absolute inset-0 opacity-0 hover:opacity-100 flex items-end justify-center;
+  }
+
+  .gallery-row {
+    @apply flex md:flex-row  flex-col gap-8 justify-center;
+  }
+
+  .gallery-overlay-text {
+    @apply text-white py-5 w-full text-sm  bg-opacity-65  bg-gray-400 font-semibold;
+  }
+
+  .gallery-3-sec {
+    @apply relative min-h-[250px] lg:min-h-[400px]  bg-fixed mt-[50px]  bg-center  bg-cover;
+    background-image: url("images/gallary-par.jpg");
+  }
+
+  .gallery-4-section {
+    @apply lg:max-w-[1200px] mx-auto px-4;
+    h3 {
+      @apply text-start text-4xl lg:text-5xl my-5 font-ubuntu;
+    }
+  }
+  .gallery-4-content {
+    @apply lg:w-[50%] w-full  flex md:flex-row flex-col items-center justify-center;
+  }
+}
+
+/* 
+geller section 1 style ending */
+
+/* gallery page style ending */
