@@ -581,3 +581,66 @@ news page style ending */
 geller section 1 style ending */
 
 /* gallery page style ending */
+
+/* blog page style starting */
+.blog-container {
+  @apply pt-[10%] gap-10 flex md:flex-row flex-col px-4 lg:max-w-[1300px] mx-auto;
+}
+.post-container {
+  @apply md:w-[70%] flex flex-col w-full;
+  h2 {
+    @apply text-4xl hover:text-primaryTheme lg:text-5xl text-start py-6 font-ubuntu;
+  }
+
+  p {
+    @apply text-[#767879] text-sm py-5;
+  }
+}
+.post-card {
+  @apply border-b-[1px] border-b-black;
+}
+.recent-post-container {
+  @apply md:w-[22%] w-full;
+  h2 {
+    @apply text-4xl lg:text-5xl text-start py-6 font-ubuntu;
+  }
+  h3 {
+    @apply text-xl hover:text-primaryTheme lg:text-xl text-start py-4 font-ubuntu;
+  }
+}
+
+.recent-post-card {
+  @apply pb-5;
+}
+.pagination {
+  @apply flex items-center justify-start text-sm space-x-2 mt-5;
+}
+
+.pagination a {
+  @apply flex items-center justify-center w-8 h-8 text-gray-700   hover:text-gray-400;
+}
+
+.pagination a.active {
+  @apply text-black font-bold;
+}
+/* blog page style ending */
+
+/* privacy page style starting */
+
+.privacy-container {
+  @apply lg:max-w-[1200px] pt-[10%] mx-auto p-6;
+}
+.privacy-container h3 {
+  @apply text-4xl lg:text-4xl py-12 font-ubuntu;
+}
+.privacy-container h2 {
+  @apply text-gray-700  helvetica mb-4;
+}
+.privacy-container p {
+  @apply text-gray-700  helvetica mb-4;
+}
+.privacy-container ul {
+  @apply pl-6 mb-4  helvetica;
+}
+
+/* privacy page style ending */
