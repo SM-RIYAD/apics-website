@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en " data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <title>apics</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section starting -->
+    <section class="  header-sec  ">
+        <header class=" header-container ">
+            <div class=" header-content">
+                <a href="index.html" target="_blank" class="flex pt-2" rel="noopener noreferrer">
+                    <div class="lg:w-44 md:w-24">
+                        <img src="/images/dd-colored.png" alt="Logo" class=" " />
+                    </div>
+
+                    <div class="lg:w-44 md:w-24 ps-3">
+                        <img src="images/ascm-partner-mark_premier_training.jpg" class="" alt="" srcset="">
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class=" desktop-nav ">
+                    <a href="index.html" class="nav-menue">Home</a>
+                    <a href="about.html" class="nav-menue">About</a>
+                    <a href="news.html" class="nav-menue">News</a>
+                    <a href="gallery.html" class="nav-menue">Gallery</a>
+                    <a href="blog.html" class="nav-menue">Blog</a>
+                    <a href="contact.html" class="nav-menue">Contacts</a>
+                </nav>
+
+                <div class="hidden md:block w-[70px] border-b border-white mb-2 mx-3"></div>
+
+                <!-- Mobile Menu Button -->
+                <div class="mobile-menue ">
+                    <div class="bg-primaryTheme p-1 px-2">
+                        <button class="text-white text-xl " onclick="toggleMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <nav id="mobileMenu"
+            class=" hidden font-ubuntu md:hidden bg-white text-center text-black p-4 relative top-0 left-0 right-0">
+            <a href="index.html" class="mob-nav-menue">Home</a>
+            <a href="about.html" class="mob-nav-menue">About</a>
+            <a href="news.html" class="mob-nav-menue">News</a>
+            <a href="gallery.html" class="mob-nav-menue">Gallery</a>
+            <a href="blog.html" class="mob-nav-menue">Blog</a>
+            <a href="contact.html" class="mob-nav-menue-active">Contacts</a>
+        </nav>
+    </section>
+    <!-- Header Section ending -->
+
+    <!-- section 1 starting -->
+    <section class="news-details-sec-1">
+        <h1>DataDevelop 2019 Student Case Competition</h1>
+        <h2>Profitable Business thru Innovative Supply Chain Loop</h2>
+
+    </section>
+
+    <!-- section 1 ending -->
+    <!-- section 2 starting -->
+    <section class="news-details-2-container">
+        <div class="news-details-2-slider">
+            <div class="news-details-2-slide">
+                <div class="news-details-2-slide-img-container">
+                    <img src="images/news-slider-1.png" alt="Competition Image" class="news-details-2-image">
+                </div>
+
+            </div>
+            <div class="news-details-2-slide">
+
+                <div class="news-details-2-slide-img-container">
+                    <img src="images/news-slider-2.png" alt="Competition Image 2" class="news-details-2-image">
+
+                </div>
+
+                <p class="news-details-2-caption">Innovative Supply Chain Loop</p>
+            </div>
+            <div class="news-details-2-slide">
+                <div class="news-details-2-slide-img-container">
+                    <img src="images/news-slider-3.png" alt="Competition Image 2" class="news-details-2-image">
+
+                </div>
+
+                <p class="news-details-2-caption">Experience how Supply Chain alignment to sustain ROI</p>
+            </div>
+            <div class="news-details-2-slide">
+                <p class="news-details-2-caption">2019 students case competition briefing session with circular economy
+                    workshop</p>
+                <div class="news-details-2-slide-img-container">
+                    <img src="images/news-slider-4.png" alt="Competition Image 2" class="news-details-2-image">
+
+                </div>
+
+
+            </div>
+            <div class="news-details-2-slide">
+                <div class="news-details-2-slide-img-container">
+                    <img src="images/news-slider-5.png" alt="Competition Image 2" class="news-details-2-image">
+
+                </div>
+
+                <p class="news-details-2-caption">2nd runner-up team in DataDevelop 2018 Student Case Competition</p>
+            </div>
+
+            <div class="news-details-2-slide">
+                <div class="news-details-2-slide-img-container">
+                    <img src="images/news-slider-6.png" alt="Competition Image 2" class="news-details-2-image">
+
+                </div>
+
+                <p class="news-details-2-caption">1st runner-up team in DataDevelop 2018 Student Case Competition</p>
+            </div>
+        </div>
+        <div class="news-details-2-navigation">
+            <a class=" news-details-2-active">1</a>
+            <a class="">2</a>
+            <a class="">3</a>
+            <a class="">4</a>
+            <a class="">5</a>
+            <a class="">6</a>
+        </div>
+
+    </section>
+
+    <!-- section 2 ending -->
+
+
+    <!-- section 3 starting -->
+    <section class="news-details-3-container">
+        <div class="news-details-3-item">
+
+            <div class="news-details-3-content ">
+                <a href="#" class="news-details-3-title">Competition team briefing session (team registration deadline
+                    on 6
+                    Feb., 2025 noon)</a>
+                <span class="news-details-3-date">2025.1.11 10:00-16:00</span>
+
+            </div>
+
+            <div id="countdown1" class="news-details-3-badge">
+
+
+            </div>
+            <a href="https://www.eventbrite.hk/e/datadevelop-prize-hk-2025-student-case-competition-team-registration-tickets-1123306854039?aff=apicshk"
+                target="_blank" rel="noopener noreferrer"> <button class="news-details-3-button ">Competition team
+                    registration</button></a>
+
+        </div>
+        <div class="news-details-3-item">
+
+            <div class="news-details-3-content ">
+
+                <a href="#" class="news-details-3-title">Student case competition event</a>
+                <span class="news-details-3-date">2025.2.15 10:00-17:30</span>
+            </div>
+
+            <div id="countdown2" class="news-details-3-badge"></div>
+            <a href="https://www.eventbrite.hk/e/datadevelop-prize-sustainable-innovation-for-made-in-hong-kong-products-tickets-1123311618289?aff=apicshk"
+                target="_blank" rel="noopener noreferrer"><button class="news-details-3-button">Event
+                    Registration</button></a>
+            <p class="news-details-3-location"> <span class="font-bold"> Location: </span>2/F, INNO2, Multi-Function
+                Room 1-3, 17W, <br> Hong
+                Kong Science
+                Park, Shatin, New Territories, Hong Kong</p>
+        </div>
+
+    </section>
+
+    <!-- section 3 ending -->
+
+    <!-- section 4 starting -->
+
+    <section class="news-details-4-container">
+        <h2>What's about 2025 Student Case Competition / What's going on there? Come and learn</h2>
+        <ul>
+            <li>1. Why do we need to build a sustainable and innovative supply chain for 'Made in Hong Kong' products?
+            </li>
+            <li>2. How to leverage the latest digital transformation technology for sustainability by Siemens and
+                Pandora?</li>
+            <li>3. How to make profitable 'Made in Hong Kong' products or services through sustainable innovation in the
+                Greater Bay Area by future leaders?</li>
+        </ul>
+        <p>Do you and your friends or colleagues possess the necessary skills to compete with the world's top young
+            business professionals and students?</p>
+        <p class="font-bold"><em>or</em></p>
+        <p>Do you want to network/learn and attend a one-day case competition event where we will have eminent supply
+            chain speakers talk about career advancements and sustainable supply chain topics in the region?</p>
+        <p>The DataDevelop Prize HK: 2025 Student Case Competition will bring together students and young professionals
+            from around the world. The winning team members will qualify for the <span>fast-track interview of
+                internship opportunities</span> by multinational firms.</p>
+        <p class="font-bold">All competition team participants can get a special student price of <span>USD 200
+                (original price is over USD 400)</span> to join Procurement Success Summit (PSS).</p>
+        <p>This year, the DataDevelop Prize HK: 2025 student case competition will be combined with a few keynote
+            speeches that will allow participants the opportunity to learn/network with eminent supply chain people from
+            different countries.</p>
+        <div class="news-details-4-btn-container ">
+
+            <a class="apics-primary-button" href="#">Event Schedule</a>
+        </div>
+
+    </section>
+    <!-- section 4 ending -->
+
+
+
+    <!-- section 5 starting -->
+
+
+    <section>
+        <div class=" news-details-5-slider-container  ">
+            <h2>
+                Competition participants from universities
+            </h2>
+            <div class="slick-slider">
+                <!-- Slide 1 -->
+                <div class="flex justify-center items-center ">
+                    <div class=""><img src="images/news-2nd-slider-1.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 2 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-2nd-slider-2.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 3 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-2nd-slider-3.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 4 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-2nd-slider-4.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 5 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-2nd-slider-5.jpg" alt="" /></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 5 ending -->
+
+
+
+    <!-- section 6 starting -->
+
+    <section class="gallery-1-section max-w-[1200px] mx-auto p-4">
+
+
+        <h4 class="news-gallery-heading"> Judges & speakers</h4>
+
+        <!-- Gallery Flex Container -->
+        <div class="news-gallery-1-container flex flex-col gap-5">
+            <!-- Row 1 -->
+            <div class="news-gallery-row ">
+                <div class="news-gallery-1-item lg:w-[40%]  w-full  " onclick="openLightbox(0)">
+                    <img src="images/news-d-gallery-1.jpg" alt="Gallery Image " />
+                    <div class="gallery-overlay ">
+                        <span class="gallery-overlay-text">Mr. Henry Soo, Master Instructor of SCOR DS, CSCP, CLTD &
+                            CPIM</span>
+                    </div>
+                </div>
+                <div class="news-gallery-1-item lg:w-[60%]  w-full  " onclick="openLightbox(1)">
+                    <img src="images/news-d-gallery-2.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text ">Conference Meeting</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Row 2 -->
+            <div class="news-gallery-row ">
+                <div class="news-gallery-1-item lg:w-[38%]  w-full  " onclick="openLightbox(2)">
+                    <img src="images/news-d-gallery-3.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text">GM, Supply Chain Management and QA Maxim’s Caterers
+                            Limited
+                            HK & China - Mr. Roland Chong was born in Hong Kong and has over 25 years' management
+                            working experience in different industries, such as supply chain management, logistics, IT
+                            and manufacturing operation etc. Before joining Maxim's, Roland served Yum! Brand,
+                            Starbucks, CP Group, Luckin, McKinsey & Co.</span>
+                    </div>
+                </div>
+                <div class="news-gallery-1-item lg:w-[62%]  w-full  " onclick="openLightbox(3)">
+                    <img src="images/news-d-gallery-4.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text ">Joyce Lam is VP of Innovation and Product Development
+                            at
+                            Pandora, driving product strategy and innovation in the accessible jewelry sector. With 11
+                            years at Swarovski, she held roles including VP of Global Sourcing and Director of Product
+                            Development Operations. Her expertise spans supply chain, process management, and product
+                            development. Joyce holds advanced degrees in Industrial Engineering and Supply Chain
+                            Management, exemplifying her commitment to excellence and innovation in luxury goods.</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Row 3 -->
+            <div class="news-gallery-row ">
+                <div class="news-gallery-1-item lg:w-[60%]  w-full  " onclick="openLightbox(4)">
+                    <img src="images/news-d-gallery-5.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text">Dr. Wilfred Lin earned his B.A. (1st Hon.), M.Phil., and
+                            Ph.D. from the Hong Kong Polytechnic University (2000–2005) and received the Sir Edward
+                            Youde Memorial Fellowship in 2002. He has co-authored three textbooks, 70+ refereed
+                            publications, and holds nine international patents in AI and machine learning. His work
+                            includes the HerbMiners Cloud Platform. A keynote speaker at global conferences, he has
+                            earned awards like the GuangXi Science and Technology Progress Award and is a member of ACM,
+                            IEEE, and AAAI</span>
+                    </div>
+                </div>
+                <div class="news-gallery-1-item lg:w-[40%]  w-full  " onclick="openLightbox(5)">
+                    <img src="images/news-d-gallery-6.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text ">Ms. Cheung Yuk Yee, Joanne, a registered pharmacist and
+                            founder of Meiriki Japan, boasts over 40 years of expertise in pharmaceuticals and health
+                            supplements. As Honorary President of the Hong Kong Health Food Association, she champions
+                            industry standards, consumer education, and GBA collaborations. Renowned for her leadership,
+                            she advances public health, digital transformation, and sustainable innovation in the health
+                            food sector, solidifying her impact on Hong Kong's health landscape.</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- Row 4 -->
+            <div class="news-gallery-row ">
+                <div class="news-gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(6)">
+                    <img src="images/news-d-gallery-7.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text">Mr. Jeff Law serves as the Chairman of the Hong Kong
+                            Industry Makers Association and the Managing Director of Topsoya Limited. He joined Topsoya
+                            Ltd in 1996, which is a Hong Kong-based company established over 60 years, specialized in
+                            the manufacturing of soya products.</span>
+                    </div>
+                </div>
+                <div class="news-gallery-1-item lg:w-[50%]  w-full  " onclick="openLightbox(7)">
+                    <img src="images/news-d-gallery-8.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text ">Henry Kwok, Head of Sustainability at Siemens Smart
+                            Infrastructure Buildings, drives digital transformation and sustainable development in
+                            building technology, energy services, and decarbonization. A Certified ESG Analyst (CESGA)
+                            and RCx Professional, he is a member of HKIE, CIBSE, and ASHRAE. From 2021-2023, he served
+                            on BEC's Sustainable Living Environment Advisory Group. Henry holds a BSc in Building
+                            Services Engineering from The Hong Kong Polytechnic University.</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- Row 5 -->
+            <div class="news-gallery-row ">
+                <div class="news-gallery-1-item   w-full  " onclick="openLightbox(8)">
+                    <img src="images/news-d-gallery-9.jpg" alt="Gallery Image " />
+                    <div class="news-gallery-overlay ">
+                        <span class="news-gallery-overlay-text">Mr. Jeff Law serves as the Chairman of the Hong Kong
+                            Industry Makers Association and the Managing Director of Topsoya Limited. He joined Topsoya
+                            Ltd in 1996, which is a Hong Kong-based company established over 60 years, specialized in
+                            the manufacturing of soya products.</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="news-gallery-1-lightbox"
+            class="fixed inset-0 hidden z-50 flex items-center justify-center overflow-auto bg-black bg-opacity-80 transition-opacity duration-300">
+            <div
+                class="relative  rounded-2xl shadow-lg lg:px-[10%] w-full max-w-4xl p-4 lg:pt-20 h-screen overflow-auto">
+                <div class="w-full flex justify-end pe-5 items-end">
+
+                    <button class="news-gallery-1-close  text-gray-600 text-3xl hover:text-gray-900"
+                        onclick="closeLightbox()">&times;</button>
+                </div>
+
+                <div class="news-lightbox-img-container flex flex-col items-center justify-center px-6">
+                    <img id="news-gallery-1-current" src="path-to-your-image.jpg" alt="Current Gallery Image"
+                        class="w-full object-contain max-h-[75vh] " />
+                </div>
+                <div class="flex w-full px-5">
+                    <div id="news-gallery-1-heading"
+                        class="lg:text-start text-start w-[80%] lg:w-[90%] text-white text-sm   px-4">
+                    </div>
+
+                    <!-- Picture Count -->
+                    <div class="news-gallery-img-count lg:w-[10%] text-white text-sm text-end mt-2">
+                        <span id="news-gallery-1-current-index">1</span> / <span
+                            id="news-gallery-1-total-count">3</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button class="news-gallery-1-prev " onclick="prevImage()">&#8249;</button>
+                <button class="news-gallery-1-next " onclick="nextImage()">&#8250;</button>
+                <!-- Picture Count -->
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 6 ending -->
+
+
+    <!-- section 7 starting -->
+
+
+    <section>
+        <div class=" news-details-7-slider-container  ">
+            <h2>
+                Co-operative Organizer
+            </h2>
+            <div class="slick-slider">
+                <!-- Slide 1 -->
+                <div class="flex justify-center items-center ">
+                    <div class=""><img src="images/news-d-co-slider-1.jpg" alt="" /></div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section 7 ending -->
+
+
+
+
+    <!-- section 8 starting -->
+
+
+    <section>
+        <div class=" news-details-8-slider-container  ">
+            <h2>
+                Strategic Partners / don't forget it
+            </h2>
+            <div class="slick-slide-3">
+                <!-- Slide 1 -->
+                <div class="flex justify-center items-center ">
+                    <div class=""><img src="images/news-d-stra-slider-1.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 2 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-stra-slider-2.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 3 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-stra-slider-3.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 4 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-stra-slider-4.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 5 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-stra-slider-3.jpg" alt="" /></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 8 ending -->
+
+
+    <!-- section 9 starting -->
+    <section>
+        <div class=" news-details-9-slider-container  ">
+            <h2>
+                Supporting associations and organizatsions / don't forget it
+            </h2>
+            <div class="slick-slide-3">
+                <!-- Slide 1 -->
+                <div class="flex justify-center items-center ">
+                    <div class=""><img src="images/news-d-su-slider-1.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 2 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-su-slider-2.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 3 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-su-slider-3.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 4 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-su-slider-4.jpg" alt="" /></div>
+
+                </div>
+                <!-- Slide 5 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-su-slider-5.jpg" alt="" /></div>
+
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-su-slider-6.jpg" alt="" /></div>
+
+                </div>
+
+                <!-- Slide 7 -->
+                <div class="flex justify-center items-center">
+                    <div class=""><img src="images/news-d-su-slider-7.jpg" alt="" /></div>
+
+                </div>
+            </div>
+        </div>
+
+        <button class="apics-primary-button mx-auto ">Event FAQs</button>
+    </section>
+    <!-- section 9 ending -->
+
+
+    <!-- section 10 starting -->
+    <section class="news-d-section-10-container">
+        <div class="text-center space-y-5 lg:w-1/2">
+            <p class="news-d-section-10-text">WANT TO KNOW MORE?<br>SIGN UP TODAY ....<br>IT'S FREE</p>
+            <img src="images/news-d-subscribe-pic.jpg" alt="Newsletter" class="news-d-section-10-image">
+        </div>
+
+        <form class="news-d-section-10-form lg:w-1/2">
+            <input type="email" placeholder="Email *" class="news-d-section-10-input" required>
+            <input type="text" placeholder="First Name *" class="news-d-section-10-input" required>
+            <input type="text" placeholder="Last Name *" class="news-d-section-10-input" required>
+            <button type="submit" class="news-d-section-10-button">Subscribe</button>
+        </form>
+
+    </section>
+    <!-- section 10 ending -->
+
+
+
+
+
+    <!-- back to top section  starting -->
+    <div class="fixed bottom-4 right-4 home-9-back-to-top hidden">
+        <button id="backToTop" class="back-to-top-btn" onclick="scrollToTop()">
+            ↑
+        </button>
+    </div>
+
+
+    <!-- back  to top section  ending -->
+
+
+    <!-- footer starting -->
+
+    <footer>
+
+        <p>www.apics.hk © 2016 .</p>
+
+        <a href="privacy.html">Privacy Policy</a>
+    </footer>
+
+
+
+
+    <!-- footer ending -->
+
+
+    <!-- js for 2nd slider -->
+
+    <script>
+        $(document).ready(function () {
+            $(".slick-slider").slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: false, // Enable navigation dots
+                autoplay: true,
+                speed: 100,
+                arrows: false, // Optional: remove arrows
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                },
+                ],
+            });
+
+
+            $(".slick-slide-3").slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true, // Enable navigation dots
+                autoplay: true,
+                speed: 100,
+                arrows: false, // Optional: remove arrows
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                },
+                ],
+            });
+
+        });
+    </script>
+
+
+
+
+    <!-- js for backto top -->
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        // Show/hide the button based on the scroll position
+        window.addEventListener("scroll", () => {
+            const scrollPosition = window.scrollY;
+            if (scrollPosition > 200) {
+                backToTopButton.parentElement.classList.remove("hidden");
+            } else {
+                backToTopButton.parentElement.classList.add("hidden");
+            }
+        });
+
+        // Function to scroll to the top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth", // Smooth scrolling
+            });
+        }
+    </script>
+
+    </script>
+    <!-- js for nav -->
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobileMenu");
+            mobileMenu.classList.toggle("hidden");
+        }
+    </script>
+    <!-- 
+    wow js animation js -->
+    <script>
+        new WOW({
+            boxClass: "wow", // Class to identify elements for animations
+            animateClass: "animate__animated", // Animation class from Animate.css
+            offset: 100, // Trigger point in px before element appears in viewport
+            mobile: true, // Enable animations on mobile devices
+            live: true, // Act on dynamically loaded content
+        }).init();
+    </script>
+
+
+    <!-- 
+        js for news details slider -->
+
+    <script>
+        $(document).ready(function () {
+            var slider = $('.news-details-2-slider');
+            slider.slick({
+                dots: false,
+                arrows: true,
+                infinite: true,
+                autoplay: true,
+                speed: 200,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button class="news-details-2-arrow news-details-2-prev">&#10094;</button>',
+                nextArrow: '<button class="news-details-2-arrow news-details-2-next">&#10095;</button>',
+            });
+
+            $('.news-details-2-navigation a').click(function (e) {
+                e.preventDefault();
+                var slideIndex = $(this).index();
+                slider.slick('slickGoTo', slideIndex);
+                $('.news-details-2-navigation a').removeClass('news-details-2-active');
+                $(this).addClass('news-details-2-active');
+            });
+
+            slider.on('afterChange', function (event, slick, currentSlide) {
+                $('.news-details-2-navigation a').removeClass('news-details-2-active');
+                $('.news-details-2-navigation a').eq(currentSlide).addClass('news-details-2-active');
+            });
+        });
+    </script>
+
+
+
+    <!-- js for gallery -->
+    <script>
+        const images = [
+            { src: "images/news-d-gallery-1.jpg", heading: "Mr. Henry Soo, Master Instructor of SCOR DS, CSCP, CLTD & CPIM" },
+            { src: "images/news-d-gallery-2.jpg", heading: "Conference Meeting" },
+            { src: "images/news-d-gallery-3.jpg", heading: "GM, Supply Chain Management and QA Maxim’s Caterers Limited HK & China - Mr. Roland Chong was born in Hong Kong and has over 25 years' management working experience in different industries, such as supply chain management, logistics, IT and manufacturing operation etc. Before joining Maxim's, Roland served Yum! Brand, Starbucks, CP Group, Luckin, McKinsey & Co." },
+            { src: "images/news-d-gallery-4.jpg", heading: "Joyce Lam is VP of Innovation and Product Development at Pandora, driving product strategy and innovation in the accessible jewelry sector. With 11 years at Swarovski, she held roles including VP of Global Sourcing and Director of Product Development Operations. Her expertise spans supply chain, process management, and product development. Joyce holds advanced degrees in Industrial Engineering and Supply Chain Management, exemplifying her commitment to excellence and innovation in luxury goods." },
+            { src: "images/news-d-gallery-5.jpg", heading: "Dr. Wilfred Lin earned his B.A. (1st Hon.), M.Phil., and Ph.D. from the Hong Kong Polytechnic University (2000–2005) and received the Sir Edward Youde Memorial Fellowship in 2002. He has co-authored three textbooks, 70+ refereed publications, and holds nine international patents in AI and machine learning. His work includes the HerbMiners Cloud Platform. A keynote speaker at global conferences, he has earned awards like the GuangXi Science and Technology Progress Award and is a member of ACM, IEEE, and AAAI" },
+            { src: "images/news-d-gallery-6.jpg", heading: "Ms. Cheung Yuk Yee, Joanne, a registered pharmacist and founder of Meiriki Japan, boasts over 40 years of expertise in pharmaceuticals and health supplements. As Honorary President of the Hong Kong Health Food Association, she champions industry standards, consumer education, and GBA collaborations. Renowned for her leadership, she advances public health, digital transformation, and sustainable innovation in the health food sector, solidifying her impact on Hong Kong's health landscape." },
+            { src: "images/news-d-gallery-7.jpg", heading: "Mr. Jeff Law serves as the Chairman of the Hong Kong Industry Makers Association and the Managing Director of Topsoya Limited. He joined Topsoya Ltd in 1996, which is a Hong Kong-based company established over 60 years, specialized in the manufacturing of soya products." },
+            { src: "images/news-d-gallery-8.jpg", heading: "Henry Kwok, Head of Sustainability at Siemens Smart Infrastructure Buildings, drives digital transformation and sustainable development in building technology, energy services, and decarbonization. A Certified ESG Analyst (CESGA) and RCx Professional, he is a member of HKIE, CIBSE, and ASHRAE. From 2021-2023, he served on BEC's Sustainable Living Environment Advisory Group. Henry holds a BSc in Building Services Engineering from The Hong Kong Polytechnic University." },
+            { src: "images/news-d-gallery-9.jpg", heading: "Mr. Jeff Law serves as the Chairman of the Hong Kong Industry Makers Association and the Managing Director of Topsoya Limited. He joined Topsoya Ltd in 1996, which is a Hong Kong-based company established over 60 years, specialized in the manufacturing of soya products." },
+
+
+
+
+        ];
+        let currentIndex = 0;
+
+        function openLightbox(index) {
+            currentIndex = index;
+            document.getElementById("news-gallery-1-lightbox").classList.remove("hidden");
+            updateLightbox();
+        }
+
+        function closeLightbox() {
+            document.getElementById("news-gallery-1-lightbox").classList.add("hidden");
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateLightbox();
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateLightbox();
+        }
+
+        function updateLightbox() {
+            const { src, heading } = images[currentIndex];
+            document.getElementById("news-gallery-1-current").src = src;
+            document.getElementById("news-gallery-1-heading").textContent = heading;
+            document.getElementById("news-gallery-1-current-index").textContent = currentIndex + 1;
+            document.getElementById("news-gallery-1-total-count").textContent = images.length;
+        }
+    </script>
+
+
+
+    <!-- js for news details countdown -->
+
+    <script>
+        var countDownDate1 = new Date("Feb 6, 2025 10:00:00").getTime();
+        var countDownDate2 = new Date("Feb 15, 2025 10:00:00").getTime();
+
+        var x1 = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate1 - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown1").innerHTML = `<p > ${days} <p>` + ` <p class='text-sm ' >Days </p>`;
+
+            if (distance < 0) {
+                clearInterval(x1);
+                document.getElementById("countdown1").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+        var x2 = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate2 - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("countdown2").innerHTML = `<p > ${days} <p>` + ` <p class='text-sm ' >Days </p>`;
+
+            if (distance < 0) {
+                clearInterval(x2);
+                document.getElementById("countdown2").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
