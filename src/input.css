@@ -848,10 +848,10 @@ geller section 1 style ending */
     }
   }
   .news-gallery-1-prev {
-    @apply absolute  md:top-1/2 top-[30%] left-2 transform text-4xl md:text-8xl -translate-y-1/2 text-white hover:bg-transparent   p-2 shadow;
+    @apply absolute  md:top-1/2 top-[30%] left-2 transform text-4xl md:text-8xl -translate-y-1/2 text-gray-500 hover:bg-transparent hover:text-white   p-2 shadow;
   }
   .news-gallery-1-next {
-    @apply absolute md:top-1/2 top-[30%] right-2 transform text-4xl md:text-8xl -translate-y-1/2 text-white hover:bg-transparent   p-2 shadow;
+    @apply absolute md:top-1/2 top-[30%] hover:text-white right-2 transform text-4xl md:text-8xl -translate-y-1/2 text-gray-500 hover:bg-transparent   p-2 shadow;
   }
 
   .news-gallery-lightbox {
@@ -958,3 +958,68 @@ geller section 1 style ending */
 /* news details section 10 ending */
 
 /* news details style ending  */
+
+/* news schedule style starting */
+
+/* news schedule section 1 style starting */
+.event-schedule-sec-1-container {
+  @apply pt-[10%] px-5 lg:max-w-[1400px] mx-auto;
+
+  h1 {
+    @apply text-4xl py-12 not-italic text-center  text-blue-400;
+  }
+
+  h2 {
+    @apply text-xl  not-italic pt-12 text-start font-bold text-secondTheme;
+  }
+  h3 {
+    @apply text-xl font-helvetica  not-italic pb-12 text-start font-bold;
+  }
+  p {
+    @apply font-bold p-5 lg:min-w-[500px] text-center pt-5;
+  }
+  li {
+    @apply text-xl  not-italic  text-start font-bold;
+  }
+}
+.li-effect {
+  @apply text-secondTheme text-xl;
+}
+.e-s-card-right-content {
+  @apply lg:w-[45%];
+}
+
+.e-s-card-left-content {
+  @apply flex w-full  lg:min-w-[550px] justify-center;
+}
+.event-schedule-card-img-container {
+  @apply w-24 lg:scale-110 mt-5 rounded-[50%] overflow-hidden;
+}
+.event-schedule-card-img-container-o {
+  @apply w-20 lg:scale-110 mt-5 rounded-[50%] overflow-hidden;
+}
+.event-schedule-card {
+  @apply flex lg:flex-row justify-between flex-col;
+}
+
+/* news schedule section 1 style ending */
+
+/* news schedule  style ending  */
+
+/* faq page style starting */
+.event-faq-container {
+  @apply lg:max-w-[1200px]  text-sm font-helvetica pt-[10%] mx-auto p-6 space-y-3;
+}
+.event-faq-container h2 {
+  @apply font-semibold  text-secondTheme;
+}
+.event-faq-container p {
+  @apply text-gray-700;
+}
+.event-faq-container ul {
+  @apply pl-12 text-gray-700;
+}
+.event-faq-container a {
+  @apply underline;
+}
+/* faq page style ending */

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en " data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <title>apics</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section starting -->
+    <section class="  header-sec  ">
+        <header class=" header-container ">
+            <div class=" header-content">
+                <a href="index.html" target="_blank" class="flex pt-2" rel="noopener noreferrer">
+                    <div class="lg:w-44 md:w-24">
+                        <img src="/images/dd-colored.png" alt="Logo" class=" " />
+                    </div>
+
+                    <div class="lg:w-44 md:w-24 ps-3">
+                        <img src="images/ascm-partner-mark_premier_training.jpg" class="" alt="" srcset="">
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class=" desktop-nav ">
+                    <a href="index.html" class="nav-menue">Home</a>
+                    <a href="about.html" class="nav-menue">About</a>
+                    <a href="news.html" class="nav-menue">News</a>
+                    <a href="gallery.html" class="nav-menue">Gallery</a>
+                    <a href="blog.html" class="nav-menue">Blog</a>
+                    <a href="contact.html" class="nav-menue">Contacts</a>
+                </nav>
+
+                <div class="hidden md:block w-[70px] border-b border-white mb-2 mx-3"></div>
+
+                <!-- Mobile Menu Button -->
+                <div class="mobile-menue ">
+                    <div class="bg-primaryTheme p-1 px-2">
+                        <button class="text-white text-xl " onclick="toggleMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <nav id="mobileMenu"
+            class=" hidden font-ubuntu md:hidden bg-white text-center text-black p-4 relative top-0 left-0 right-0">
+            <a href="index.html" class="mob-nav-menue">Home</a>
+            <a href="about.html" class="mob-nav-menue">About</a>
+            <a href="news.html" class="mob-nav-menue">News</a>
+            <a href="gallery.html" class="mob-nav-menue">Gallery</a>
+            <a href="blog.html" class="mob-nav-menue">Blog</a>
+            <a href="contact.html" class="mob-nav-menue-active">Contacts</a>
+        </nav>
+    </section>
+    <!-- Header Section ending -->
+
+    <!-- section 1 starting -->
+    <section class="event-schedule-sec-1-container">
+
+        <h1> EVENT SCHEDULE ON 2025.2.15</h1>
+
+        <!-- card 1 -->
+        <div class="event-schedule-card ">
+
+            <!-- left side content -->
+            <div class="wow animate__animated animate__headShake">
+                <div class=" flex justify-center">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-1.jpg" />
+                    </div>
+                </div>
+                <p>Present your name card and scanning for e-ticket during registration</p>
+            </div>
+
+            <!-- right side content -->
+            <div class="e-s-card-right-content">
+                <h2>09:30 - 10:00 "Networking and Registration"</h2>
+            </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow animate__animated animate__headShake">
+                <div class=" flex justify-center">
+                    <div class="event-schedule-card-img-container-o ">
+                        <img src="images/event-s-card-2.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Mr. Henry Soo, Managing Director of DataDevelop Consulting Ltd. </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>10:00 - 10:15 "Welcome Speech"</h2>
+
+                <h3>Future plan for DataDevelop Prize in Asia </h3>
+            </div>
+        </div>
+
+
+        <!-- card 3 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow animate__animated animate__headShake">
+                <div class=" flex justify-center  pe-24 ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-3.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Dr. Wingo Lo, President of The Chinese Manufacturers' Association of Hong Kong </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>10:15 - 10:30 "Keynote Speech 1"</h2>
+
+                <h3>Why do we need to build a sustainable and innovative supply chain for 'Made in Hong Kong' products?
+                </h3>
+            </div>
+        </div>
+
+
+        <!-- card 4 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow animate__animated animate__headShake">
+                <div class=" flex justify-center">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-4.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Mr. Henry Kwok, Head of Sustainability, Smart Infrastructure, Buildings </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>10:30 - 11:00 "Keynote Speech 2"</h2>
+
+                <h3>- Sustainability in Digitalization by Siemens </h3>
+            </div>
+        </div>
+
+
+
+        <!-- card 5 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow animate__animated animate__headShake">
+                <div class=" flex justify-center">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-5.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Ms. Joyce Lam, VP Innovation & Product Development at PANDORA </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>11:00 - 11:30 "Keynote Speech 3"</h2>
+
+                <h3>- Jewelry Use Case - Innovation for Sustainability by Pandora</h3>
+            </div>
+        </div>
+
+
+
+        <!-- card 6 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-6.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Participants </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>11:30 - 12:30 "Government, University, Industry (GUI) Cafe"</h2>
+
+                <h3>- Group brainstorming for advancing innovation and collaboration to elevate Hong Kong's Global
+                    Innovation Index (GII)</h3>
+            </div>
+        </div>
+
+        <!-- card 7 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-7.jpg" />
+                    </div>
+                </div>
+
+
+                <p>VIP Guests </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>12:30 - 14:00 "Lunch Break"</h2>
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-- card 8 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-8.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Sustainable Innovation for 'Made in Hong Kong' products</p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>
+                    Sustainable Innovation for 'Made in Hong Kong' products
+
+                    14:00 - 15:00 "Student Case Competition - Part 1"</h2>
+
+
+                <ul>
+                    <li>
+                        <span class="  li-effect"> - </span> Team 1 -
+                    </li>
+                    <li>
+                        <span class="  li-effect"> - </span>Team 2 -
+                    </li>
+
+                    <li>
+                        <span class="  li-effect"> - </span> Team 3 -
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+
+
+        <!-- card 9 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-9.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Group networking activity</p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>
+                    15:00 - 15:30 "Networking Tea Break"</h2>
+            </div>
+        </div>
+
+
+
+        <!-- card 10 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-10.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Sustainable Innovation for 'Made in Hong Kong' products</p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>
+
+                    15:30 - 16:30 "Student Case Competition - Part 2"</h2>
+
+
+                <ul>
+                    <li>
+                        <span class="  li-effect"> - </span> Team 4 -
+                    </li>
+                    <li>
+                        <span class="  li-effect"> - </span> Team 5 -
+                    </li>
+
+                    <li>
+                        <span class="  li-effect"> - </span> Team 6 -
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+
+        <!-- card 11 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-11.jpg" />
+                    </div>
+                </div>
+
+
+                <p>Ms. Christine Wong, Startups Incubation @ HKSTP </p>
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>
+
+                    16:30 - 16:50 "Incubation fund for new startup"</h2>
+
+
+
+
+
+            </div>
+        </div>
+
+        <!-- card 12 -->
+        <div class="event-schedule-card">
+            <!-- left side content -->
+            <div class="wow  animate__animated   animate__headShake">
+                <div class=" e-s-card-left-content ">
+                    <div class="event-schedule-card-img-container ">
+                        <img src="images/event-s-card-12.jpg" />
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <!-- right side content -->
+
+            <div class="e-s-card-right-content ">
+                <h2>
+
+
+                    16:50 - 17:45 "Group photo, Student Case Competition results announcement with Judges' comments and
+                    award presentation"</h2>
+
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- section 2 ending -->
+
+
+    <!-- back to top section  starting -->
+    <div class="fixed bottom-4 right-4 home-9-back-to-top hidden">
+        <button id="backToTop" class="back-to-top-btn" onclick="scrollToTop()">
+            ↑
+        </button>
+    </div>
+
+
+    <!-- back  to top section  ending -->
+
+
+    <!-- footer starting -->
+
+    <footer>
+
+        <p>www.apics.hk © 2016 .</p>
+
+        <a href="privacy.html">Privacy Policy</a>
+    </footer>
+
+
+
+
+    <!-- footer ending -->
+
+
+    <!-- js for 2nd slider -->
+
+    <script>
+        $(document).ready(function () {
+            $(".slick-slider").slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: false, // Enable navigation dots
+                autoplay: true,
+                speed: 100,
+                arrows: false, // Optional: remove arrows
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                },
+                ],
+            });
+
+
+            $(".slick-slide-3").slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true, // Enable navigation dots
+                autoplay: true,
+                speed: 100,
+                arrows: false, // Optional: remove arrows
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                },
+                ],
+            });
+
+        });
+    </script>
+
+
+
+
+    <!-- js for backto top -->
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        // Show/hide the button based on the scroll position
+        window.addEventListener("scroll", () => {
+            const scrollPosition = window.scrollY;
+            if (scrollPosition > 200) {
+                backToTopButton.parentElement.classList.remove("hidden");
+            } else {
+                backToTopButton.parentElement.classList.add("hidden");
+            }
+        });
+
+        // Function to scroll to the top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth", // Smooth scrolling
+            });
+        }
+    </script>
+
+    </script>
+    <!-- js for nav -->
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobileMenu");
+            mobileMenu.classList.toggle("hidden");
+        }
+    </script>
+    <!-- 
+    wow js animation js -->
+    <script>
+        new WOW({
+            boxClass: "wow", // Class to identify elements for animations
+            animateClass: "animate__animated", // Animation class from Animate.css
+            offset: 100, // Trigger point in px before element appears in viewport
+            mobile: true, // Enable animations on mobile devices
+            live: true, // Act on dynamically loaded content
+        }).init();
+    </script>
+
+
+    <!-- 
+        js for news details slider -->
+
+    <script>
+        $(document).ready(function () {
+            var slider = $('.news-details-2-slider');
+            slider.slick({
+                dots: false,
+                arrows: true,
+                infinite: true,
+                autoplay: true,
+                speed: 200,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button class="news-details-2-arrow news-details-2-prev">&#10094;</button>',
+                nextArrow: '<button class="news-details-2-arrow news-details-2-next">&#10095;</button>',
+            });
+
+            $('.news-details-2-navigation a').click(function (e) {
+                e.preventDefault();
+                var slideIndex = $(this).index();
+                slider.slick('slickGoTo', slideIndex);
+                $('.news-details-2-navigation a').removeClass('news-details-2-active');
+                $(this).addClass('news-details-2-active');
+            });
+
+            slider.on('afterChange', function (event, slick, currentSlide) {
+                $('.news-details-2-navigation a').removeClass('news-details-2-active');
+                $('.news-details-2-navigation a').eq(currentSlide).addClass('news-details-2-active');
+            });
+        });
+    </script>
+
+
+
+    <!-- js for gallery -->
+    <script>
+        const images = [
+            { src: "images/news-d-gallery-1.jpg", heading: "Mr. Henry Soo, Master Instructor of SCOR DS, CSCP, CLTD & CPIM" },
+            { src: "images/news-d-gallery-2.jpg", heading: "Conference Meeting" },
+            { src: "images/news-d-gallery-3.jpg", heading: "GM, Supply Chain Management and QA Maxim’s Caterers Limited HK & China - Mr. Roland Chong was born in Hong Kong and has over 25 years' management working experience in different industries, such as supply chain management, logistics, IT and manufacturing operation etc. Before joining Maxim's, Roland served Yum! Brand, Starbucks, CP Group, Luckin, McKinsey & Co." },
+            { src: "images/news-d-gallery-4.jpg", heading: "Joyce Lam is VP of Innovation and Product Development at Pandora, driving product strategy and innovation in the accessible jewelry sector. With 11 years at Swarovski, she held roles including VP of Global Sourcing and Director of Product Development Operations. Her expertise spans supply chain, process management, and product development. Joyce holds advanced degrees in Industrial Engineering and Supply Chain Management, exemplifying her commitment to excellence and innovation in luxury goods." },
+            { src: "images/news-d-gallery-5.jpg", heading: "Dr. Wilfred Lin earned his B.A. (1st Hon.), M.Phil., and Ph.D. from the Hong Kong Polytechnic University (2000–2005) and received the Sir Edward Youde Memorial Fellowship in 2002. He has co-authored three textbooks, 70+ refereed publications, and holds nine international patents in AI and machine learning. His work includes the HerbMiners Cloud Platform. A keynote speaker at global conferences, he has earned awards like the GuangXi Science and Technology Progress Award and is a member of ACM, IEEE, and AAAI" },
+            { src: "images/news-d-gallery-6.jpg", heading: "Ms. Cheung Yuk Yee, Joanne, a registered pharmacist and founder of Meiriki Japan, boasts over 40 years of expertise in pharmaceuticals and health supplements. As Honorary President of the Hong Kong Health Food Association, she champions industry standards, consumer education, and GBA collaborations. Renowned for her leadership, she advances public health, digital transformation, and sustainable innovation in the health food sector, solidifying her impact on Hong Kong's health landscape." },
+            { src: "images/news-d-gallery-7.jpg", heading: "Mr. Jeff Law serves as the Chairman of the Hong Kong Industry Makers Association and the Managing Director of Topsoya Limited. He joined Topsoya Ltd in 1996, which is a Hong Kong-based company established over 60 years, specialized in the manufacturing of soya products." },
+            { src: "images/news-d-gallery-8.jpg", heading: "Henry Kwok, Head of Sustainability at Siemens Smart Infrastructure Buildings, drives digital transformation and sustainable development in building technology, energy services, and decarbonization. A Certified ESG Analyst (CESGA) and RCx Professional, he is a member of HKIE, CIBSE, and ASHRAE. From 2021-2023, he served on BEC's Sustainable Living Environment Advisory Group. Henry holds a BSc in Building Services Engineering from The Hong Kong Polytechnic University." },
+            { src: "images/news-d-gallery-9.jpg", heading: "Mr. Jeff Law serves as the Chairman of the Hong Kong Industry Makers Association and the Managing Director of Topsoya Limited. He joined Topsoya Ltd in 1996, which is a Hong Kong-based company established over 60 years, specialized in the manufacturing of soya products." },
+
+
+
+
+        ];
+        let currentIndex = 0;
+
+        function openLightbox(index) {
+            currentIndex = index;
+            document.getElementById("news-gallery-1-lightbox").classList.remove("hidden");
+            updateLightbox();
+        }
+
+        function closeLightbox() {
+            document.getElementById("news-gallery-1-lightbox").classList.add("hidden");
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateLightbox();
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateLightbox();
+        }
+
+        function updateLightbox() {
+            const { src, heading } = images[currentIndex];
+            document.getElementById("news-gallery-1-current").src = src;
+            document.getElementById("news-gallery-1-heading").textContent = heading;
+            document.getElementById("news-gallery-1-current-index").textContent = currentIndex + 1;
+            document.getElementById("news-gallery-1-total-count").textContent = images.length;
+        }
+    </script>
+
+
+
+    <!-- js for news details countdown -->
+
+    <script>
+        var countDownDate1 = new Date("Feb 6, 2025 10:00:00").getTime();
+        var countDownDate2 = new Date("Feb 15, 2025 10:00:00").getTime();
+
+        var x1 = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate1 - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown1").innerHTML = `<p > ${days} <p>` + ` <p class='text-sm ' >Days </p>`;
+
+            if (distance < 0) {
+                clearInterval(x1);
+                document.getElementById("countdown1").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+        var x2 = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate2 - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("countdown2").innerHTML = `<p > ${days} <p>` + ` <p class='text-sm ' >Days </p>`;
+
+            if (distance < 0) {
+                clearInterval(x2);
+                document.getElementById("countdown2").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
